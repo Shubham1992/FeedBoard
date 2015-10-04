@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="vertical"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent">
+<TextView
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:textColor="#000000"
+	android:textSize="15dp"
+	android:layout_margin="10dp"
+	android:elevation="5dp"
+	android:padding="20dp"
+	android:text="The TV show mistakenly used a photo of Yukta Mookhey in a promotional image for an interview with Priyanka Chopra. Mookhey and Chopra are both former Miss World winners.
+
+	The TV show mistakenly used a photo of Yukta Mookhey in a promotional image for an interview with Priyanka Chopra. Mookhey and Chopra are both former Miss World winners.
+
+	The TV show mistakenly used a photo of Yukta Mookhey in a promotional image for an interview with Priyanka Chopra. Mookhey and Chopra are both former Miss World winners.
+
+	The TV show mistakenly used a photo of Yukta Mookhey in a promotional image for an interview with Priyanka Chopra. Mookhey and Chopra are both former Miss World winners.
+
+	The TV show mistakenly used a photo of Yukta Mookhey in a promotional image for an interview with Priyanka Chopra. Mookhey and Chopra are both former Miss World winners.
+
+	The TV show mistakenly used a photo of Yukta Mookhey in a promotional image for an interview with Priyanka Chopra. Mookhey and Chopra are both former Miss World winners.
+
+	The TV show mistakenly used a photo of Yukta Mookhey in a promotional image for an interview with Priyanka Chopra. Mookhey and Chopra are both former Miss World winners.
+
+	The TV show mistakenly used a photo of Yukta Mookhey in a promotional image for an interview with Priyanka Chopra. Mookhey and Chopra are both former Miss World winners."/>
+</LinearLayout><!-- From: file:/C:/Users/Shubham/Desktop/FeedBoard/app/src/main/res/layout/textview.xml -->
