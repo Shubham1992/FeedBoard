@@ -82,4 +82,4 @@
 		app:layout_anchor="@+id/appbar"
 		app:layout_anchorGravity="bottom|right|end" />-->
 
-</android.support.design.widget.CoordinatorLayout><!-- From: file:/C:/feeds/FeedBoard/app/src/main/res/layout/full_details.xml -->
+</android.support.design.widget.CoordinatorLayout><!-- From: file:/E:/FeedBoard/app/src/main/res/layout/full_details.xml -->

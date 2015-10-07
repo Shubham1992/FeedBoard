@@ -4,11 +4,6 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import in.feedboard.tabsswipe.Entertainment;
-import in.feedboard.tabsswipe.Miscellaneous;
-import in.feedboard.tabsswipe.News;
-import in.feedboard.tabsswipe.Technology;
-import in.feedboard.tabsswipe.headlineclasses.Head1;
 import in.feedboard.tabsswipe.headlineclasses.Head2;
 import in.feedboard.tabsswipe.headlineclasses.Head3;
 

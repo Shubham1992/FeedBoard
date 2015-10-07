@@ -84,7 +84,7 @@
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:textColor="@color/black"
-
+            android:id="@+id/news"
             android:background="#ffffff"
             android:gravity="left"
             />
@@ -118,7 +118,7 @@
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:textColor="@color/black"
-
+            android:id="@+id/technology"
             android:background="#ffffff"
             android:gravity="left"
             />
@@ -135,7 +135,7 @@
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:textColor="@color/black"
-
+            android:id="@+id/music"
             android:background="#ffffff"
             android:gravity="left"
             />
@@ -152,7 +152,7 @@
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:textColor="@color/black"
-
+            android:id="@+id/photography"
             android:background="#ffffff"
             android:gravity="left"
             />
@@ -170,7 +170,7 @@
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:textColor="@color/black"
-
+            android:id="@+id/health"
             android:background="#ffffff"
             android:gravity="left"
             />
@@ -188,7 +188,7 @@
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:textColor="@color/black"
-
+            android:id="@+id/business"
             android:background="#ffffff"
             android:gravity="left"
             />
@@ -200,4 +200,4 @@
 </ScrollView>
 
 </LinearLayout>
-<!-- From: file:/C:/feeds/FeedBoard/app/src/main/res/layout/left_drawer.xml -->
+<!-- From: file:/E:/FeedBoard/app/src/main/res/layout/left_drawer.xml -->

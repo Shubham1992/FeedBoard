@@ -3,7 +3,6 @@ package in.feedboard.tabsswipe.adapter;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
-import android.support.design.widget.Snackbar;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -21,7 +20,7 @@ import java.io.UnsupportedEncodingException;
 import java.util.List;
 import java.util.Map;
 
-import in.feedboard.tabsswipe.FullDetails;
+import in.feedboard.tabsswipe.activities.FullDetails;
 import in.feedboard.tabsswipe.R;
 import in.feedboard.tabsswipe.app.AppController;
 

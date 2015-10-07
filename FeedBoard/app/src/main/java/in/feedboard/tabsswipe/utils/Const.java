@@ -2,6 +2,7 @@ package in.feedboard.tabsswipe.utils;
 
 public class Const {
 	public static final String URL_NEWS = "http://www.feedboard.in/api/news.php";
+	public static final String URL_MAIN = "http://www.feedboard.in/api/main.php";
 	public static final String URL_ENTERTAINMENT = "http://www.feedboard.in/api/entertainment.php";
 	public static final String URL_HEADLINES = "http://www.feedboard.in/api/headlines.php";
 

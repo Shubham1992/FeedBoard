@@ -1,9 +1,9 @@
 package in.feedboard.tabsswipe.adapter;
 
-import in.feedboard.tabsswipe.Entertainment;
-import in.feedboard.tabsswipe.Miscellaneous;
-import in.feedboard.tabsswipe.Technology;
-import in.feedboard.tabsswipe.News;
+import in.feedboard.tabsswipe.activities.Entertainment;
+import in.feedboard.tabsswipe.activities.Miscellaneous;
+import in.feedboard.tabsswipe.activities.Technology;
+import in.feedboard.tabsswipe.activities.News;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
