@@ -39,6 +39,7 @@ public class JSONToList
 			String name = objStories.optString("name");
 			String title = objStories.optString("title");
 			String subtitle = objStories.optString("subtitle");
+			String imgurl = objStories.optString("imageurl");
 			//String name = objStories.optString("name");
 
 
@@ -46,6 +47,7 @@ public class JSONToList
 			map.put("name", name);
 			map.put("title", title);
 			map.put("subtitle", subtitle);
+			map.put("imgurl", imgurl);
 
 
 			list.add(map);

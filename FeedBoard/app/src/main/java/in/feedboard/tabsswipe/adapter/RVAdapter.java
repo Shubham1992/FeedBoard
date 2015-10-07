@@ -14,11 +14,16 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley.Cache;
+import com.android.volley.toolbox.ImageLoader;
+
+import java.io.UnsupportedEncodingException;
 import java.util.List;
 import java.util.Map;
 
 import in.feedboard.tabsswipe.FullDetails;
 import in.feedboard.tabsswipe.R;
+import in.feedboard.tabsswipe.app.AppController;
 
 public class RVAdapter extends RecyclerView.Adapter<RVAdapter.TrendViewHolder>{
 
@@ -53,6 +58,7 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.TrendViewHolder>{
             cv = (CardView)itemView.findViewById(R.id.cardView);
 			title = (TextView) itemView.findViewById(R.id.title);
             share = (ImageView) itemView.findViewById(R.id.share);
+            imgMain = (ImageView)itemView.findViewById(R.id.imgMain);
 
 
         }
@@ -73,7 +79,8 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.TrendViewHolder>{
     public void onBindViewHolder(TrendViewHolder holder, int position) {
 
         final String titleText = trendlist.get(position).get("title").toString();
-        final String imgUri = "https://someimage";
+        final String imgurl = trendlist.get(position).get("imgurl").toString();
+       //"http://www.feedboard.in/api/media/images/"+imgurl;
         holder.cv.setOnClickListener(new View.OnClickListener()
         {
             @Override
@@ -84,6 +91,9 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.TrendViewHolder>{
             }
         });
 		holder.title.setText(titleText);
+        if (imgurl != null)
+        makeImageRequest("http://www.feedboard.in/api/media/images/"+imgurl, holder.imgMain);
+
         holder.share.setOnClickListener(new View.OnClickListener()
         {
             @Override
@@ -116,6 +126,31 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.TrendViewHolder>{
     @Override
     public void onAttachedToRecyclerView(RecyclerView recyclerView) {
         super.onAttachedToRecyclerView(recyclerView);
+    }
+
+
+    private void makeImageRequest(String url , ImageView img)
+    {
+        ImageLoader imageLoader = AppController.getInstance().getImageLoader();
+
+
+        // Loading image with placeholder and error image
+        imageLoader.get(url, ImageLoader.getImageListener(
+                img, R.drawable.ico_loading, R.drawable.ico_error));
+
+        Cache cache = AppController.getInstance().getRequestQueue().getCache();
+        Cache.Entry entry = cache.get(url);
+        if(entry != null){
+            try {
+                String data = new String(entry.data, "UTF-8");
+                // handle data, like converting it to xml, json, bitmap etc.,
+            } catch (UnsupportedEncodingException e) {
+                e.printStackTrace();
+            }
+        }else{
+            // cached response doesn't exists. Make a network call here
+        }
+
     }
 
 }

@@ -1,5 +1,6 @@
 package in.feedboard.tabsswipe;
 
+
 import android.content.res.Configuration;
 import android.graphics.Color;
 import android.graphics.Typeface;
@@ -22,20 +23,24 @@ import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
+import com.android.volley.Cache;
 import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.VolleyLog;
+import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.bartoszlipinski.recyclerviewheader.RecyclerViewHeader;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.UnsupportedEncodingException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -48,6 +53,8 @@ import in.feedboard.tabsswipe.adapter.TabsPagerAdapter;
 import in.feedboard.tabsswipe.app.AppController;
 import in.feedboard.tabsswipe.savedobjects.SavedViewpagerJson;
 import in.feedboard.tabsswipe.utils.Const;
+
+import static in.feedboard.tabsswipe.R.id.title;
 
 /**
  * Created by Admin-PC on 9/14/2015.
@@ -182,8 +189,7 @@ public class DoubleDrawerActivity extends ActionBarActivity
             }
         });
 
-		Typeface custom_font = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Medium.ttf");
-		Typeface custom_font2 = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Bold.ttf");
+
 
 		btnHome = (Button) findViewById(R.id.btnhome);
 		btnHome.setOnClickListener(new View.OnClickListener() {
@@ -194,6 +200,9 @@ public class DoubleDrawerActivity extends ActionBarActivity
 		});
 
 
+
+        Typeface custom_font = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Medium.ttf");
+        Typeface custom_font2 = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Bold.ttf");
 		btnHome.setTypeface(custom_font);
 		tvEntertainment.setTypeface(custom_font);
     }
@@ -385,17 +394,36 @@ public class DoubleDrawerActivity extends ActionBarActivity
 
     private void setHeadlines(JSONObject response)
     {      Log.e("setting", "viewpager");
-        mAdapter = new HeadlinesTabsPagerAdapter(getSupportFragmentManager());
+       TextView tvTitle = (TextView) findViewById(title);
 
-         viewPager.setAdapter(mAdapter);
-         viewPager.setOnTouchListener(new View.OnTouchListener() {
-           @Override
-           public boolean onTouch(View view, MotionEvent motionEvent) {
-               view.getParent().requestDisallowInterceptTouchEvent(true);
-               Toast.makeText(DoubleDrawerActivity.this, "hmm", Toast.LENGTH_SHORT).show();
-               return false;
-           }
-       });
+        tvTitle.setText(response.optJSONArray("stories").optJSONObject(0).optString("title").toString());
+
+        ImageView imgHead = (ImageView) findViewById(R.id.imgMain);
+        String imgurl =response.optJSONArray("stories").optJSONObject(0).optString("imageurl").toString();
+
+        makeImageRequest("http://www.feedboard.in/api/media/images/"+imgurl, imgHead);
+    }
+    private void makeImageRequest(String url , ImageView img)
+    {
+        ImageLoader imageLoader = AppController.getInstance().getImageLoader();
+
+
+        // Loading image with placeholder and error image
+        imageLoader.get(url, ImageLoader.getImageListener(
+                img, R.drawable.ico_loading, R.drawable.ico_error));
+
+        Cache cache = AppController.getInstance().getRequestQueue().getCache();
+        Cache.Entry entry = cache.get(url);
+        if(entry != null){
+            try {
+                String data = new String(entry.data, "UTF-8");
+                // handle data, like converting it to xml, json, bitmap etc.,
+            } catch (UnsupportedEncodingException e) {
+                e.printStackTrace();
+            }
+        }else{
+            // cached response doesn't exists. Make a network call here
+        }
 
     }
 
