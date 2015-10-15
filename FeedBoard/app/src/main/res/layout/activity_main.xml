@@ -19,7 +19,7 @@
 		android:layout_height="match_parent"
 		android:clickable="true">
 
-		<LinearLayout
+		<FrameLayout
 			android:layout_width="match_parent"
 			android:layout_height="match_parent"
 			android:orientation="vertical">
@@ -31,7 +31,8 @@
                 <LinearLayout
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+					android:id="@+id/cntainermain">
 
                     <android.support.v7.widget.Toolbar
 
@@ -57,7 +58,8 @@
                     </android.support.v7.widget.Toolbar>
 		<FrameLayout
 			android:layout_width="match_parent"
-			android:layout_height="wrap_content">
+			android:layout_height="wrap_content"
+			android:id="@+id/cntainerBelowToolbar">
 
 
 					<com.bartoszlipinski.recyclerviewheader.RecyclerViewHeader
@@ -91,7 +93,7 @@
                                     android:maxHeight="200dp"
 									android:id="@+id/imgMain"
                                     android:scaleType="fitCenter"
-									android:background="@drawable/ronaldo"
+									android:background="#ffffff"
 									android:layout_gravity="center"/>
 								<TextView
 									android:layout_width="wrap_content"
@@ -121,7 +123,7 @@
 									android:textStyle="bold"
 									android:textColor="#ffffff"
 									android:gravity="left"
-									android:text="Some Title"
+									android:text="...................."
 									android:layout_gravity="bottom"/>
 							</FrameLayout>
 
@@ -135,7 +137,7 @@
 								<TextView
 									android:layout_width="fill_parent"
 									android:layout_height="wrap_content"
-									android:text="Some description that may be around three lines long"
+									android:text="..............................................."
 									android:padding="10dp"
 									android:textSize="15dp"
 									android:textStyle="bold"
@@ -198,11 +200,6 @@
             </android.support.design.widget.AppBarLayout>
 
 
-		<com.astuetz.PagerSlidingTabStrip
-			android:id="@+id/tabs"
-			android:layout_width="match_parent"
-			android:layout_height="?android:attr/actionBarSize"
-			android:visibility="gone"/>
 
 
 
@@ -215,9 +212,11 @@
 
             </FrameLayout>
 
-		</LinearLayout>
+		</FrameLayout>
 	</FrameLayout>
-	<include
+
+
+    <include
 		android:id="@+id/left_drawer"
         layout="@layout/left_drawer"		>
 

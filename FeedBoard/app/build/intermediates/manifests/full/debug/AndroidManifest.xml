@@ -11,13 +11,13 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name="in.feedboard.tabsswipe.app.AppController"
+        android:name="in.feedboard.app.AppController"
         android:allowBackup="true"
         android:icon="@drawable/icon"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="in.feedboard.tabsswipe.MainActivity"
+            android:name="in.feedboard.activities.Splash"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,7 +26,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="in.feedboard.tabsswipe.FullDetails"
+            android:name="in.feedboard.activities.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAINACT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="in.feedboard.activities.FullDetails"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.FULL" />

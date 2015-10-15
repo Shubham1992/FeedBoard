@@ -66,7 +66,7 @@ MERGED from com.android.support:support-v4:23.0.1:22:5
 		ADDED from AndroidManifest.xml:19:9
 	android:name
 		ADDED from AndroidManifest.xml:15:9
-activity#in.feedboard.tabsswipe.MainActivity
+activity#in.feedboard.activities.Splash
 ADDED from AndroidManifest.xml:20:9
 	android:label
 		ADDED from AndroidManifest.xml:22:13
@@ -82,19 +82,31 @@ category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:26:17
 	android:name
 		ADDED from AndroidManifest.xml:26:27
-activity#in.feedboard.tabsswipe.FullDetails
-ADDED from AndroidManifest.xml:30:9
+activity#in.feedboard.activities.MainActivity
+ADDED from AndroidManifest.xml:29:9
 	android:label
-		ADDED from AndroidManifest.xml:32:13
-	android:name
 		ADDED from AndroidManifest.xml:31:13
-intent-filter#android.intent.action.FULL+android.intent.category.DEFAULT
-ADDED from AndroidManifest.xml:33:13
-action#android.intent.action.FULL
-ADDED from AndroidManifest.xml:34:17
 	android:name
-		ADDED from AndroidManifest.xml:34:25
+		ADDED from AndroidManifest.xml:30:13
+intent-filter#android.intent.action.MAINACT+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:32:13
+action#android.intent.action.MAINACT
+ADDED from AndroidManifest.xml:33:17
+	android:name
+		ADDED from AndroidManifest.xml:33:25
 category#android.intent.category.DEFAULT
-ADDED from AndroidManifest.xml:36:17
+ADDED from AndroidManifest.xml:35:17
 	android:name
-		ADDED from AndroidManifest.xml:36:27
+		ADDED from AndroidManifest.xml:35:27
+activity#in.feedboard.activities.FullDetails
+ADDED from AndroidManifest.xml:38:9
+	android:label
+		ADDED from AndroidManifest.xml:40:13
+	android:name
+		ADDED from AndroidManifest.xml:39:13
+intent-filter#android.intent.action.FULL+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:41:13
+action#android.intent.action.FULL
+ADDED from AndroidManifest.xml:42:17
+	android:name
+		ADDED from AndroidManifest.xml:42:25

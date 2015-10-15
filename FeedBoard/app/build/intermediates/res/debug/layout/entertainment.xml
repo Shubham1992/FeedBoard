@@ -4,7 +4,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#ffffff"
-    android:gravity="center">
+    android:gravity="center"
+                android:layout_marginTop="?android:actionBarSize">
 
 
     <android.support.v7.widget.RecyclerView
