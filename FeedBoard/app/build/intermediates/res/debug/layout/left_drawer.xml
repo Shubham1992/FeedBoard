@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="240dp"
+    android:layout_width="280dp"
     android:layout_height="match_parent"
     android:layout_gravity="start"
     android:background="#ffffff"
@@ -55,6 +55,7 @@
 <FrameLayout
     android:layout_width="fill_parent"
     android:layout_height="wrap_content">
+
     <Button
         android:id="@+id/btnhome"
         android:layout_width="match_parent"
@@ -66,9 +67,18 @@
         android:textColor="@color/black"
 
         android:background="#ffffff"
-        android:gravity="left"
+        android:gravity="center|left"
+     android:layout_marginLeft="50dp"
 
         />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:src="@drawable/home"
+
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"/>
 
 </FrameLayout>
 
@@ -86,8 +96,19 @@
             android:textColor="@color/black"
             android:id="@+id/news"
             android:background="#ffffff"
-            android:gravity="left"
+            android:gravity="center|left"
+            android:layout_marginLeft="50dp"
+
             />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:src="@drawable/news"
+
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"/>
+
 
     </FrameLayout>
     <FrameLayout
@@ -103,8 +124,18 @@
             android:textColor="@color/black"
             android:id="@+id/entertainment"
             android:background="#ffffff"
-            android:gravity="left"
+            android:gravity="center|left"
+            android:layout_marginLeft="50dp"
+
             />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:src="@drawable/movie"
+
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"/>
 
     </FrameLayout>
     <FrameLayout
@@ -120,27 +151,21 @@
             android:textColor="@color/black"
             android:id="@+id/technology"
             android:background="#ffffff"
-            android:gravity="left"
+            android:gravity="center|left"
+            android:layout_marginLeft="50dp"
+
             />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:src="@drawable/light"
+
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"/>
 
     </FrameLayout>
-    <FrameLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content">
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Music"
-            android:paddingLeft="20dp"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:textColor="@color/black"
-            android:id="@+id/music"
-            android:background="#ffffff"
-            android:gravity="left"
-            />
 
-    </FrameLayout>
     <FrameLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content">
@@ -154,8 +179,18 @@
             android:textColor="@color/black"
             android:id="@+id/photography"
             android:background="#ffffff"
-            android:gravity="left"
+            android:gravity="center|left"
+            android:layout_marginLeft="50dp"
+
             />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:src="@drawable/picture"
+
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"/>
 
     </FrameLayout>
 
@@ -172,8 +207,19 @@
             android:textColor="@color/black"
             android:id="@+id/health"
             android:background="#ffffff"
-            android:gravity="left"
+            android:gravity="center|left"
+            android:layout_marginLeft="50dp"
+
             />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:src="@drawable/heart"
+
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"/>
+
 
     </FrameLayout>
 
@@ -190,8 +236,18 @@
             android:textColor="@color/black"
             android:id="@+id/business"
             android:background="#ffffff"
-            android:gravity="left"
+            android:gravity="center|left"
+            android:layout_marginLeft="50dp"
+
             />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:src="@drawable/business"
+
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"/>
 
     </FrameLayout>
 
@@ -200,4 +256,4 @@
 </ScrollView>
 
 </LinearLayout>
-<!-- From: file:/E:/FeedBoard/app/src/main/res/layout/left_drawer.xml -->
+<!-- From: file:/C:/feeds/FeedBoard/app/src/main/res/layout/left_drawer.xml -->

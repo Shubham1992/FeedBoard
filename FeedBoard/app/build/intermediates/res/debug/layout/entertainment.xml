@@ -12,8 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/rvEntertainment"
-       android:visibility="visible" />
+     />
     
 
 </RelativeLayout>
-<!-- From: file:/E:/FeedBoard/app/src/main/res/layout/entertainment.xml -->
+<!-- From: file:/C:/feeds/FeedBoard/app/src/main/res/layout/entertainment.xml -->

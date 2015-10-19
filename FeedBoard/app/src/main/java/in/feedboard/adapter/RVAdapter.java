@@ -1,8 +1,11 @@
 package in.feedboard.adapter;
 
+import android.annotation.TargetApi;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.os.Build;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -14,7 +17,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.Cache;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
 import com.android.volley.toolbox.ImageLoader;
+import com.android.volley.toolbox.ImageRequest;
 
 import java.io.UnsupportedEncodingException;
 import java.util.List;
@@ -44,8 +50,8 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.TrendViewHolder>{
     public class TrendViewHolder extends RecyclerView.ViewHolder {
         CardView cv;
         ViewGroup llcardView;
-		ImageView imgMain;
-		TextView title, tvDesc, tvComment;
+		ImageView imgMain , tempImg;
+		TextView title, tvDesc, tvComment , tvheadline;
 		ImageView share, bookmark;
 
 
@@ -58,7 +64,8 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.TrendViewHolder>{
 			title = (TextView) itemView.findViewById(R.id.title);
             share = (ImageView) itemView.findViewById(R.id.share);
             imgMain = (ImageView)itemView.findViewById(R.id.imgMain);
-
+            tempImg = (ImageView)itemView.findViewById(R.id.tempimg);
+            tvheadline = (TextView)itemView.findViewById(R.id.tvHeadline);
 
         }
     }
@@ -75,11 +82,12 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.TrendViewHolder>{
     }
 
     @Override
-    public void onBindViewHolder(TrendViewHolder holder, int position) {
+    public void onBindViewHolder(final TrendViewHolder holder, int position) {
 
         final String titleText = trendlist.get(position).get("title").toString();
         final String imgurl = trendlist.get(position).get("imgurl").toString();
         final String id = trendlist.get(position).get("id").toString();
+        final  String headline = trendlist.get(position).get("headline").toString();
        //"http://www.feedboard.in/api/media/images/"+imgurl;
         holder.cv.setOnClickListener(new View.OnClickListener()
         {
@@ -93,8 +101,26 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.TrendViewHolder>{
         });
 		holder.title.setText(titleText);
         if (imgurl != null)
-        makeImageRequest("http://www.feedboard.in/api/media/images/"+imgurl, holder.imgMain);
 
+
+        {
+            RequestQueue requestQueue = MyVolleySingleton.getInstance(context).getRequestQueue();
+            ImageRequest mainImageRequest = new ImageRequest("http://www.feedboard.in/api/media/images/" + imgurl,
+                    new Response.Listener<Bitmap>() {
+                        @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
+                        @Override
+                        public void onResponse(Bitmap bitmap) {
+                            // set the image here
+                            holder.tempImg.setImageBitmap(bitmap);
+                            holder.imgMain.setBackground(holder.tempImg.getDrawable());
+                            // hide the spinner here
+                        }
+                    }, 0, 0, null, null);
+
+            requestQueue.add(mainImageRequest);
+
+         //   makeImageRequest("http://www.feedboard.in/api/media/images/" + imgurl, holder.imgMain, holder.tempImg);
+        }
         holder.share.setOnClickListener(new View.OnClickListener()
         {
             @Override
@@ -118,6 +144,8 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.TrendViewHolder>{
                }
             }
         });
+
+        holder.tvheadline.setText(headline);
     }
 
     @Override
@@ -130,28 +158,5 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.TrendViewHolder>{
     }
 
 
-    private void makeImageRequest(String url , ImageView img)
-    {
-        ImageLoader imageLoader = AppController.getInstance().getImageLoader();
-
-
-        // Loading image with placeholder and error image
-        imageLoader.get(url, ImageLoader.getImageListener(
-                img, R.drawable.ico_loading, R.drawable.ico_error));
-
-        Cache cache = AppController.getInstance().getRequestQueue().getCache();
-        Cache.Entry entry = cache.get(url);
-        if(entry != null){
-            try {
-                String data = new String(entry.data, "UTF-8");
-                // handle data, like converting it to xml, json, bitmap etc.,
-            } catch (UnsupportedEncodingException e) {
-                e.printStackTrace();
-            }
-        }else{
-            // cached response doesn't exists. Make a network call here
-        }
-
-    }
 
 }

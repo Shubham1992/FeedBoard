@@ -9,6 +9,7 @@
 	android:textColor="#000000"
 	android:textSize="15dp"
 	android:layout_margin="10dp"
+	android:background="#ffffff"
 	android:elevation="5dp"
 	android:padding="20dp"
 	android:text="The TV show mistakenly used a photo of Yukta Mookhey in a promotional image for an interview with Priyanka Chopra. Mookhey and Chopra are both former Miss World winners.
@@ -26,4 +27,4 @@
 	The TV show mistakenly used a photo of Yukta Mookhey in a promotional image for an interview with Priyanka Chopra. Mookhey and Chopra are both former Miss World winners.
 
 	The TV show mistakenly used a photo of Yukta Mookhey in a promotional image for an interview with Priyanka Chopra. Mookhey and Chopra are both former Miss World winners."/>
-</LinearLayout><!-- From: file:/E:/FeedBoard/app/src/main/res/layout/textview.xml -->
+</LinearLayout><!-- From: file:/C:/feeds/FeedBoard/app/src/main/res/layout/textview.xml -->

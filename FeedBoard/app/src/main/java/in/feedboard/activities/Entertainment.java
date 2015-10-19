@@ -3,6 +3,7 @@ package in.feedboard.activities;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -39,6 +40,12 @@ RecyclerView rvEntertainment;
 
 		View rootView = inflater.inflate(R.layout.entertainment, container, false);
 		rvEntertainment = (RecyclerView) rootView.findViewById(R.id.rvEntertainment);
+		StaggeredGridLayoutManager layoutManager = new StaggeredGridLayoutManager(1,StaggeredGridLayoutManager.VERTICAL);
+		final StaggeredGridLayoutManager layoutManager2 = new StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL);
+
+
+
+		rvEntertainment.setLayoutManager(layoutManager2);
 		makeJsonObjReq();
 		return rootView;
 	}
@@ -60,6 +67,7 @@ RecyclerView rvEntertainment;
 
 							JSONToList jsonToList = new JSONToList();
 							list = jsonToList.getListFromJSON(response);
+							Log.e("entertainment response", list.toString());
 
 						} catch (JSONException e)
 						{

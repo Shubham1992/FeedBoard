@@ -56,7 +56,8 @@
                             android:layout_margin="10dp"
                             />
                     </android.support.v7.widget.Toolbar>
-		<FrameLayout
+
+										<FrameLayout
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:id="@+id/cntainerBelowToolbar">
@@ -83,6 +84,11 @@
 							android:id="@+id/llCardContent"
 							android:orientation="vertical"
 							android:gravity="center">
+							<ImageView
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:id="@+id/tmpImg"
+								android:visibility="gone"/>
 							<FrameLayout
 								android:layout_width="match_parent"
 								android:layout_height="wrap_content">
@@ -141,7 +147,7 @@
 									android:padding="10dp"
 									android:textSize="15dp"
 									android:textStyle="bold"
-									android:id="@+id/tvDesc"
+									android:id="@+id/tvHeadline"
 									android:layout_weight=".3"
 									android:textColor="#000000"
 									/>
@@ -184,15 +190,19 @@
 					</LinearLayout>
 
 					</com.bartoszlipinski.recyclerviewheader.RecyclerViewHeader>
+					<android.support.v4.widget.SwipeRefreshLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+						android:id="@+id/swipeLayoutid">
 
 					<android.support.v7.widget.RecyclerView
 						android:layout_width="match_parent"
 						android:layout_height="match_parent"
 						android:id="@+id/rvHome"
 						android:layout_gravity="center|top"/>
+				</android.support.v4.widget.SwipeRefreshLayout>
 
 			</FrameLayout>
-
                 </LinearLayout>
 
 
@@ -235,4 +245,4 @@
 		android:background="#ffffff"
 		android:orientation="vertical"/>
 </android.support.v4.widget.DrawerLayout>
-</android.support.design.widget.CoordinatorLayout><!-- From: file:/E:/FeedBoard/app/src/main/res/layout/activity_main.xml -->
+</android.support.design.widget.CoordinatorLayout><!-- From: file:/C:/feeds/FeedBoard/app/src/main/res/layout/activity_main.xml -->

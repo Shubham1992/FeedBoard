@@ -1,12 +1,17 @@
 package in.feedboard.activities;
 
 
+import android.annotation.TargetApi;
 import android.content.res.Configuration;
+import android.graphics.Bitmap;
 import android.graphics.Typeface;
+import android.os.Build;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.RecyclerView;
@@ -26,10 +31,12 @@ import android.widget.TextView;
 import com.android.volley.AuthFailureError;
 import com.android.volley.Cache;
 import com.android.volley.Request;
+import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.ImageLoader;
+import com.android.volley.toolbox.ImageRequest;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.bartoszlipinski.recyclerviewheader.RecyclerViewHeader;
 
@@ -42,6 +49,7 @@ import java.util.List;
 import java.util.Map;
 
 import in.feedboard.R;
+import in.feedboard.adapter.MyVolleySingleton;
 import in.feedboard.utils.JSONToList;
 
 import in.feedboard.adapter.HeadlinesTabsPagerAdapter;
@@ -54,7 +62,7 @@ import in.feedboard.utils.Const;
 /**
  * Created by Admin-PC on 9/14/2015.
  */
-public class DoubleDrawerActivity extends ActionBarActivity
+public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefreshLayout.OnRefreshListener
 {//00BCD4
 
 	private DrawerLayout mDrawerLayout;
@@ -77,6 +85,9 @@ public class DoubleDrawerActivity extends ActionBarActivity
     private List<HashMap> list;
     private HeadlinesTabsPagerAdapter mAdapter;
     ViewGroup vgCntnr;
+    SwipeRefreshLayout swipeRefreshLayout;
+    ImageView headLineBookmark;
+
     @Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -84,7 +95,22 @@ public class DoubleDrawerActivity extends ActionBarActivity
 		/*LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
 		View view = inflater.inflate(R.layout.toolbar, null);*/
 		toolbar = (Toolbar) findViewById(R.id.toolbar);
-		Log.e("toolbar", toolbar.toString());
+	    headLineBookmark = (ImageView) findViewById(R.id.bookmark);
+
+        swipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipeLayoutid);
+
+        swipeRefreshLayout.setOnRefreshListener(this);
+
+       /* swipeRefreshLayout.post(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        swipeRefreshLayout.setRefreshing(true);
+
+                                        recreate();
+                                    }
+                                }
+        );*/
+			Log.e("toolbar", toolbar.toString());
 		if(toolbar != null)
 
 			setSupportActionBar(toolbar);
@@ -161,6 +187,14 @@ public class DoubleDrawerActivity extends ActionBarActivity
 
         makeJsonObjReq();
         makeJsonObjReqHeadlines();
+        headLineBookmark.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String android_id = Settings.Secure.getString(getContentResolver(),
+                        Settings.Secure.ANDROID_ID);
+            Log.e("Android id", android_id);
+            }
+        });
 
         setDrawerButtons();
 
@@ -201,6 +235,7 @@ public class DoubleDrawerActivity extends ActionBarActivity
                 //clear all fragments function
 				clearAllFragments();
                 vgCntnr.setVisibility(View.VISIBLE);
+                mDrawerLayout.closeDrawers();
 			}
 		});
 
@@ -232,9 +267,10 @@ public class DoubleDrawerActivity extends ActionBarActivity
 				clearAllFragments();
 
                 entertainmentFragment = new Entertainment();
+                vgCntnr.setVisibility(View.GONE);
 
                 getSupportFragmentManager().beginTransaction()
-                        .add(R.id.cntainerBelowToolbar, entertainmentFragment).commit();
+                        .add(R.id.fragmentHolder, entertainmentFragment).commit();
                 mDrawerLayout.closeDrawers();
             }
         });
@@ -249,6 +285,7 @@ public class DoubleDrawerActivity extends ActionBarActivity
 				clearAllFragments();
 
                 techFragment = new Technology();
+                vgCntnr.setVisibility(View.GONE);
 
                 getSupportFragmentManager().beginTransaction()
                         .add(R.id.fragmentHolder, techFragment).commit();
@@ -329,7 +366,7 @@ public class DoubleDrawerActivity extends ActionBarActivity
 
 
         JsonObjectRequest jsonObjReq = new JsonObjectRequest(Request.Method.GET,
-                Const.URL_NEWS, null,
+                Const.URL_HOME, null,
                 new Response.Listener<JSONObject>() {
 
                     @Override
@@ -351,6 +388,7 @@ public class DoubleDrawerActivity extends ActionBarActivity
 
                         RVAdapter rvAdapter = new RVAdapter(list , DoubleDrawerActivity.this);
                         rvHome.setAdapter(rvAdapter);
+                        swipeRefreshLayout.setRefreshing(false);
                     }
                 }, new Response.ErrorListener() {
 
@@ -457,10 +495,34 @@ public class DoubleDrawerActivity extends ActionBarActivity
 
         tvTitle.setText(response.optJSONArray("stories").optJSONObject(0).optString("title").toString());
 
-        ImageView imgHead = (ImageView) findViewById(R.id.imgMain);
+        final ImageView imgHead = (ImageView) findViewById(R.id.imgMain);
+        final ImageView imgTmp = (ImageView) findViewById(R.id.tmpImg);
+
         String imgurl =response.optJSONArray("stories").optJSONObject(0).optString("imageurl").toString();
 
-        makeImageRequest("http://www.feedboard.in/api/media/images/"+imgurl, imgHead);
+        if (imgurl != null)
+
+
+        {
+            RequestQueue requestQueue = MyVolleySingleton.getInstance(DoubleDrawerActivity.this).getRequestQueue();
+            ImageRequest mainImageRequest = new ImageRequest("http://www.feedboard.in/api/media/images/" + imgurl,
+                    new Response.Listener<Bitmap>() {
+                        @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
+                        @Override
+                        public void onResponse(Bitmap bitmap) {
+                            // set the image here
+                            imgTmp.setImageBitmap(bitmap);
+                            imgHead.setBackground(imgTmp.getDrawable());
+                            // hide the spinner here
+                        }
+                    }, 0, 0, null, null);
+
+            requestQueue.add(mainImageRequest);
+
+            //   makeImageRequest("http://www.feedboard.in/api/media/images/" + imgurl, holder.imgMain, holder.tempImg);
+        }
+
+        //makeImageRequest("http://www.feedboard.in/api/media/images/"+imgurl, imgHead);
     }
 
 
@@ -489,4 +551,9 @@ public class DoubleDrawerActivity extends ActionBarActivity
     }
 
 
+    @Override
+    public void onRefresh() {
+        swipeRefreshLayout.setRefreshing(true);
+        recreate();
+    }
 }

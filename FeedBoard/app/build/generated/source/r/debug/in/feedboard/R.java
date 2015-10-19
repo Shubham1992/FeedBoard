@@ -2237,22 +2237,29 @@ containing a value of this type.
         public static final int abc_textfield_search_material=0x7f02003b;
         public static final int background_tab=0x7f02003c;
         public static final int bcktxtxml=0x7f02003d;
-        public static final int fab_background=0x7f02003e;
-        public static final int feedboard_splash=0x7f02003f;
-        public static final int ic_bookmark_black_24dp=0x7f020040;
-        public static final int ic_bookmark_black_24dpwhite=0x7f020041;
-        public static final int ic_drawer=0x7f020042;
-        public static final int ic_launcher=0x7f020043;
-        public static final int ic_share_black_24dp=0x7f020044;
-        public static final int ico_error=0x7f020045;
-        public static final int ico_loading=0x7f020046;
-        public static final int icon=0x7f020047;
-        public static final int notification_template_icon_bg=0x7f02004a;
-        public static final int ronaldo=0x7f020048;
-        public static final int snackbar_background=0x7f020049;
+        public static final int business=0x7f02003e;
+        public static final int fab_background=0x7f02003f;
+        public static final int feedboard_splash=0x7f020040;
+        public static final int heart=0x7f020041;
+        public static final int home=0x7f020042;
+        public static final int ic_bookmark_black_24dp=0x7f020043;
+        public static final int ic_bookmark_black_24dpwhite=0x7f020044;
+        public static final int ic_drawer=0x7f020045;
+        public static final int ic_launcher=0x7f020046;
+        public static final int ic_share_black_24dp=0x7f020047;
+        public static final int ico_error=0x7f020048;
+        public static final int ico_loading=0x7f020049;
+        public static final int icon=0x7f02004a;
+        public static final int light=0x7f02004b;
+        public static final int movie=0x7f02004c;
+        public static final int news=0x7f02004d;
+        public static final int notification_template_icon_bg=0x7f020051;
+        public static final int picture=0x7f02004e;
+        public static final int ronaldo=0x7f02004f;
+        public static final int snackbar_background=0x7f020050;
     }
     public static final class id {
-        public static final int action0=0x7f0b008e;
+        public static final int action0=0x7f0b0091;
         public static final int action_bar=0x7f0b0058;
         public static final int action_bar_activity_content=0x7f0b0000;
         public static final int action_bar_container=0x7f0b0057;
@@ -2261,54 +2268,54 @@ containing a value of this type.
         public static final int action_bar_subtitle=0x7f0b003c;
         public static final int action_bar_title=0x7f0b003b;
         public static final int action_context_bar=0x7f0b0059;
-        public static final int action_divider=0x7f0b0092;
+        public static final int action_divider=0x7f0b0095;
         public static final int action_menu_divider=0x7f0b0002;
         public static final int action_menu_presenter=0x7f0b0003;
         public static final int action_mode_bar=0x7f0b0055;
         public static final int action_mode_bar_stub=0x7f0b0054;
         public static final int action_mode_close_button=0x7f0b003d;
-        public static final int action_settings=0x7f0b009c;
+        public static final int action_settings=0x7f0b009f;
         public static final int activity_chooser_view_content=0x7f0b003e;
         public static final int alertTitle=0x7f0b0048;
         public static final int always=0x7f0b002c;
-        public static final int anim_toolbar=0x7f0b007e;
-        public static final int appbar=0x7f0b007c;
+        public static final int anim_toolbar=0x7f0b0081;
+        public static final int appbar=0x7f0b007f;
         public static final int beginning=0x7f0b002a;
-        public static final int bookmark=0x7f0b0075;
+        public static final int bookmark=0x7f0b0076;
         public static final int bottom=0x7f0b001b;
-        public static final int btnhome=0x7f0b0084;
-        public static final int business=0x7f0b008b;
+        public static final int btnhome=0x7f0b0087;
+        public static final int business=0x7f0b008d;
         public static final int buttonPanel=0x7f0b004e;
-        public static final int cancel_action=0x7f0b008f;
-        public static final int cardView=0x7f0b007a;
+        public static final int cancel_action=0x7f0b0092;
+        public static final int cardView=0x7f0b007c;
         public static final int center=0x7f0b001c;
         public static final int center_horizontal=0x7f0b001d;
         public static final int center_vertical=0x7f0b001e;
         public static final int checkbox=0x7f0b0050;
-        public static final int chronometer=0x7f0b0095;
+        public static final int chronometer=0x7f0b0098;
         public static final int clip_horizontal=0x7f0b001f;
         public static final int clip_vertical=0x7f0b0020;
         public static final int cntainerBelowToolbar=0x7f0b006d;
         public static final int cntainermain=0x7f0b006a;
         public static final int collapseActionView=0x7f0b002d;
-        public static final int collapsing_toolbar=0x7f0b007d;
+        public static final int collapsing_toolbar=0x7f0b0080;
         public static final int contentPanel=0x7f0b0049;
         public static final int content_frame=0x7f0b0069;
         public static final int custom=0x7f0b004d;
         public static final int customPanel=0x7f0b004c;
         public static final int decor_content_parent=0x7f0b0056;
         public static final int default_activity_button=0x7f0b0041;
-        public static final int details_container=0x7f0b0080;
+        public static final int details_container=0x7f0b0083;
         public static final int dialog=0x7f0b0031;
         public static final int disableHome=0x7f0b000e;
         public static final int drawer_layout=0x7f0b0068;
         public static final int dropdown=0x7f0b0032;
         public static final int edit_query=0x7f0b005a;
         public static final int end=0x7f0b0021;
-        public static final int end_padder=0x7f0b009a;
+        public static final int end_padder=0x7f0b009d;
         public static final int enterAlways=0x7f0b0015;
         public static final int enterAlwaysCollapsed=0x7f0b0016;
-        public static final int entertainment=0x7f0b0086;
+        public static final int entertainment=0x7f0b0089;
         public static final int exitUntilCollapsed=0x7f0b0017;
         public static final int expand_activities_button=0x7f0b003f;
         public static final int expanded_menu=0x7f0b004f;
@@ -2316,53 +2323,53 @@ containing a value of this type.
         public static final int fill_horizontal=0x7f0b0023;
         public static final int fill_vertical=0x7f0b0024;
         public static final int fixed=0x7f0b0033;
-        public static final int fragmentHolder=0x7f0b0077;
+        public static final int fragmentHolder=0x7f0b0079;
         public static final int header=0x7f0b006e;
-        public static final int health=0x7f0b008a;
+        public static final int health=0x7f0b008c;
         public static final int home=0x7f0b0004;
         public static final int homeAsUp=0x7f0b000f;
         public static final int icon=0x7f0b0043;
         public static final int ifRoom=0x7f0b002e;
         public static final int image=0x7f0b0040;
-        public static final int imgMain=0x7f0b0070;
-        public static final int info=0x7f0b0099;
+        public static final int imgMain=0x7f0b0071;
+        public static final int info=0x7f0b009c;
         public static final int item_touch_helper_previous_elevation=0x7f0b0005;
         public static final int left=0x7f0b0025;
-        public static final int left_drawer=0x7f0b0078;
-        public static final int line1=0x7f0b0093;
-        public static final int line3=0x7f0b0097;
+        public static final int left_drawer=0x7f0b007a;
+        public static final int line1=0x7f0b0096;
+        public static final int line3=0x7f0b009a;
         public static final int listMode=0x7f0b000b;
         public static final int list_item=0x7f0b0042;
         public static final int llCardContent=0x7f0b006f;
         public static final int main_content=0x7f0b0067;
-        public static final int media_actions=0x7f0b0091;
+        public static final int media_actions=0x7f0b0094;
         public static final int middle=0x7f0b002b;
         public static final int mini=0x7f0b0029;
         public static final int multiply=0x7f0b0036;
-        public static final int music=0x7f0b0088;
+        public static final int music=0x7f0b008e;
         public static final int never=0x7f0b002f;
-        public static final int news=0x7f0b0085;
+        public static final int news=0x7f0b0088;
         public static final int none=0x7f0b0010;
         public static final int normal=0x7f0b000c;
         public static final int parallax=0x7f0b0019;
         public static final int parentPanel=0x7f0b0045;
-        public static final int photography=0x7f0b0089;
+        public static final int photography=0x7f0b008b;
         public static final int pin=0x7f0b001a;
         public static final int progress_circular=0x7f0b0006;
         public static final int progress_horizontal=0x7f0b0007;
         public static final int radio=0x7f0b0052;
         public static final int right=0x7f0b0026;
-        public static final int right_drawer=0x7f0b0079;
-        public static final int rvEntertainment=0x7f0b007b;
-        public static final int rvHome=0x7f0b0076;
-        public static final int rvMiscellaneous=0x7f0b008c;
-        public static final int rvNews=0x7f0b008d;
-        public static final int rvTechnology=0x7f0b009b;
+        public static final int right_drawer=0x7f0b007b;
+        public static final int rvEntertainment=0x7f0b007e;
+        public static final int rvHome=0x7f0b0078;
+        public static final int rvMiscellaneous=0x7f0b008f;
+        public static final int rvNews=0x7f0b0090;
+        public static final int rvTechnology=0x7f0b009e;
         public static final int screen=0x7f0b0037;
         public static final int scroll=0x7f0b0018;
         public static final int scrollView=0x7f0b004a;
         public static final int scrollable=0x7f0b0034;
-        public static final int scrollableview=0x7f0b007f;
+        public static final int scrollableview=0x7f0b0082;
         public static final int search_badge=0x7f0b005c;
         public static final int search_bar=0x7f0b005b;
         public static final int search_button=0x7f0b005d;
@@ -2374,36 +2381,39 @@ containing a value of this type.
         public static final int search_src_text=0x7f0b0061;
         public static final int search_voice_btn=0x7f0b0065;
         public static final int select_dialog_listview=0x7f0b0066;
-        public static final int share=0x7f0b0073;
+        public static final int share=0x7f0b0074;
         public static final int shortcut=0x7f0b0051;
         public static final int showCustom=0x7f0b0011;
         public static final int showHome=0x7f0b0012;
         public static final int showTitle=0x7f0b0013;
-        public static final int snackbar_action=0x7f0b0083;
-        public static final int snackbar_text=0x7f0b0082;
+        public static final int snackbar_action=0x7f0b0086;
+        public static final int snackbar_text=0x7f0b0085;
         public static final int split_action_bar=0x7f0b0008;
         public static final int src_atop=0x7f0b0038;
         public static final int src_in=0x7f0b0039;
         public static final int src_over=0x7f0b003a;
         public static final int start=0x7f0b0027;
-        public static final int status_bar_latest_event_content=0x7f0b0090;
+        public static final int status_bar_latest_event_content=0x7f0b0093;
         public static final int submit_area=0x7f0b0063;
+        public static final int swipeLayoutid=0x7f0b0077;
         public static final int tabMode=0x7f0b000d;
-        public static final int technology=0x7f0b0087;
-        public static final int text=0x7f0b0098;
-        public static final int text2=0x7f0b0096;
+        public static final int technology=0x7f0b008a;
+        public static final int tempimg=0x7f0b007d;
+        public static final int text=0x7f0b009b;
+        public static final int text2=0x7f0b0099;
         public static final int textSpacerNoButtons=0x7f0b004b;
-        public static final int textView=0x7f0b0074;
-        public static final int time=0x7f0b0094;
+        public static final int textView=0x7f0b0075;
+        public static final int time=0x7f0b0097;
         public static final int title=0x7f0b0044;
         public static final int title_template=0x7f0b0047;
+        public static final int tmpImg=0x7f0b0070;
         public static final int toolbar=0x7f0b006b;
         public static final int toolbartitle=0x7f0b006c;
         public static final int top=0x7f0b0028;
         public static final int topPanel=0x7f0b0046;
-        public static final int topcomment=0x7f0b0071;
-        public static final int tv=0x7f0b0081;
-        public static final int tvDesc=0x7f0b0072;
+        public static final int topcomment=0x7f0b0072;
+        public static final int tvDetails=0x7f0b0084;
+        public static final int tvHeadline=0x7f0b0073;
         public static final int up=0x7f0b0009;
         public static final int useLogo=0x7f0b0014;
         public static final int view_offset_helper=0x7f0b000a;
@@ -2841,33 +2851,33 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background info.androidhive.tabsswipe:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit info.androidhive.tabsswipe:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked info.androidhive.tabsswipe:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd info.androidhive.tabsswipe:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft info.androidhive.tabsswipe:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight info.androidhive.tabsswipe:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart info.androidhive.tabsswipe:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout info.androidhive.tabsswipe:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions info.androidhive.tabsswipe:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider info.androidhive.tabsswipe:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation info.androidhive.tabsswipe:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height info.androidhive.tabsswipe:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll info.androidhive.tabsswipe:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator info.androidhive.tabsswipe:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout info.androidhive.tabsswipe:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon info.androidhive.tabsswipe:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle info.androidhive.tabsswipe:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding info.androidhive.tabsswipe:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo info.androidhive.tabsswipe:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode info.androidhive.tabsswipe:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme info.androidhive.tabsswipe:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding info.androidhive.tabsswipe:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle info.androidhive.tabsswipe:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle info.androidhive.tabsswipe:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle info.androidhive.tabsswipe:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title info.androidhive.tabsswipe:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle info.androidhive.tabsswipe:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background in.feedboard:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit in.feedboard:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked in.feedboard:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd in.feedboard:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft in.feedboard:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight in.feedboard:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart in.feedboard:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout in.feedboard:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions in.feedboard:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider in.feedboard:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation in.feedboard:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height in.feedboard:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll in.feedboard:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator in.feedboard:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout in.feedboard:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon in.feedboard:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle in.feedboard:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding in.feedboard:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo in.feedboard:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode in.feedboard:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme in.feedboard:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding in.feedboard:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle in.feedboard:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle in.feedboard:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle in.feedboard:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title in.feedboard:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle in.feedboard:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -2907,17 +2917,17 @@ containing a value of this type.
             0x7f01001a, 0x7f01001b, 0x7f0100ca
         };
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#background}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:background
+          @attr name in.feedboard:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2925,11 +2935,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name info.androidhive.tabsswipe:backgroundSplit
+          @attr name in.feedboard:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2937,11 +2947,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name info.androidhive.tabsswipe:backgroundStacked
+          @attr name in.feedboard:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2953,11 +2963,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:contentInsetEnd
+          @attr name in.feedboard:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2969,11 +2979,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:contentInsetLeft
+          @attr name in.feedboard:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2985,11 +2995,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:contentInsetRight
+          @attr name in.feedboard:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3001,21 +3011,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:contentInsetStart
+          @attr name in.feedboard:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:customNavigationLayout
+          @attr name in.feedboard:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3033,21 +3043,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name info.androidhive.tabsswipe:displayOptions
+          @attr name in.feedboard:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#divider}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:divider
+          @attr name in.feedboard:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#elevation}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3059,11 +3069,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:elevation
+          @attr name in.feedboard:elevation
         */
         public static final int ActionBar_elevation = 24;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#height}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3075,11 +3085,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:height
+          @attr name in.feedboard:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3089,51 +3099,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:hideOnContentScroll
+          @attr name in.feedboard:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:homeAsUpIndicator
+          @attr name in.feedboard:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 26;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:homeLayout
+          @attr name in.feedboard:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#icon}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:icon
+          @attr name in.feedboard:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:indeterminateProgressStyle
+          @attr name in.feedboard:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3145,21 +3155,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:itemPadding
+          @attr name in.feedboard:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#logo}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:logo
+          @attr name in.feedboard:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3173,21 +3183,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name info.androidhive.tabsswipe:navigationMode
+          @attr name in.feedboard:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:popupTheme
+          @attr name in.feedboard:popupTheme
         */
         public static final int ActionBar_popupTheme = 25;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3199,21 +3209,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:progressBarPadding
+          @attr name in.feedboard:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:progressBarStyle
+          @attr name in.feedboard:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3223,21 +3233,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:subtitle
+          @attr name in.feedboard:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:subtitleTextStyle
+          @attr name in.feedboard:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#title}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3247,17 +3257,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:title
+          @attr name in.feedboard:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:titleTextStyle
+          @attr name in.feedboard:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -3309,12 +3319,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background info.androidhive.tabsswipe:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit info.androidhive.tabsswipe:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout info.androidhive.tabsswipe:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height info.androidhive.tabsswipe:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle info.androidhive.tabsswipe:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle info.androidhive.tabsswipe:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background in.feedboard:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit in.feedboard:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout in.feedboard:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height in.feedboard:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle in.feedboard:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle in.feedboard:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -3328,17 +3338,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01000e, 0x7f01001c
         };
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#background}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:background
+          @attr name in.feedboard:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -3346,21 +3356,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name info.androidhive.tabsswipe:backgroundSplit
+          @attr name in.feedboard:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:closeItemLayout
+          @attr name in.feedboard:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#height}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -3372,27 +3382,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:height
+          @attr name in.feedboard:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:subtitleTextStyle
+          @attr name in.feedboard:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:titleTextStyle
+          @attr name in.feedboard:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -3401,8 +3411,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable info.androidhive.tabsswipe:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount info.androidhive.tabsswipe:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable in.feedboard:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount in.feedboard:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -3411,17 +3421,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01001d, 0x7f01001e
         };
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:expandActivityOverflowButtonDrawable
+          @attr name in.feedboard:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -3431,7 +3441,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:initialActivityCount
+          @attr name in.feedboard:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a AlertDialog.
@@ -3441,11 +3451,11 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout info.androidhive.tabsswipe:buttonPanelSideLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listItemLayout info.androidhive.tabsswipe:listItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listLayout info.androidhive.tabsswipe:listLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout info.androidhive.tabsswipe:multiChoiceItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout info.androidhive.tabsswipe:singleChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout in.feedboard:buttonPanelSideLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listItemLayout in.feedboard:listItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listLayout in.feedboard:listLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout in.feedboard:multiChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout in.feedboard:singleChoiceItemLayout}</code></td><td></td></tr>
            </table>
            @see #AlertDialog_android_layout
            @see #AlertDialog_buttonPanelSideLayout
@@ -3465,53 +3475,53 @@ containing a value of this type.
         */
         public static final int AlertDialog_android_layout = 0;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#buttonPanelSideLayout}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#buttonPanelSideLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:buttonPanelSideLayout
+          @attr name in.feedboard:buttonPanelSideLayout
         */
         public static final int AlertDialog_buttonPanelSideLayout = 1;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#listItemLayout}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#listItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:listItemLayout
+          @attr name in.feedboard:listItemLayout
         */
         public static final int AlertDialog_listItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#listLayout}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#listLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:listLayout
+          @attr name in.feedboard:listLayout
         */
         public static final int AlertDialog_listLayout = 2;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#multiChoiceItemLayout}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#multiChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:multiChoiceItemLayout
+          @attr name in.feedboard:multiChoiceItemLayout
         */
         public static final int AlertDialog_multiChoiceItemLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#singleChoiceItemLayout}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#singleChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:singleChoiceItemLayout
+          @attr name in.feedboard:singleChoiceItemLayout
         */
         public static final int AlertDialog_singleChoiceItemLayout = 4;
         /** Attributes that can be used with a AppBarLayout.
@@ -3521,7 +3531,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_elevation info.androidhive.tabsswipe:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_elevation in.feedboard:elevation}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_android_background
            @see #AppBarLayout_elevation
@@ -3536,7 +3546,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppBarLayout_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#elevation}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#elevation}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -3548,7 +3558,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:elevation
+          @attr name in.feedboard:elevation
         */
         public static final int AppBarLayout_elevation = 1;
         /** Attributes that can be used with a AppBarLayout_LayoutParams.
@@ -3557,8 +3567,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollFlags info.androidhive.tabsswipe:layout_scrollFlags}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollInterpolator info.androidhive.tabsswipe:layout_scrollInterpolator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollFlags in.feedboard:layout_scrollFlags}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollInterpolator in.feedboard:layout_scrollInterpolator}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_LayoutParams_layout_scrollFlags
            @see #AppBarLayout_LayoutParams_layout_scrollInterpolator
@@ -3567,7 +3577,7 @@ containing a value of this type.
             0x7f010024, 0x7f010025
         };
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#layout_scrollFlags}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#layout_scrollFlags}
           attribute's value can be found in the {@link #AppBarLayout_LayoutParams} array.
 
 
@@ -3582,17 +3592,17 @@ containing a value of this type.
 <tr><td><code>enterAlways</code></td><td>0x4</td><td></td></tr>
 <tr><td><code>enterAlwaysCollapsed</code></td><td>0x8</td><td></td></tr>
 </table>
-          @attr name info.androidhive.tabsswipe:layout_scrollFlags
+          @attr name in.feedboard:layout_scrollFlags
         */
         public static final int AppBarLayout_LayoutParams_layout_scrollFlags = 0;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#layout_scrollInterpolator}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#layout_scrollInterpolator}
           attribute's value can be found in the {@link #AppBarLayout_LayoutParams} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:layout_scrollInterpolator
+          @attr name in.feedboard:layout_scrollInterpolator
         */
         public static final int AppBarLayout_LayoutParams_layout_scrollInterpolator = 1;
         /** Attributes that can be used with a AppCompatTextView.
@@ -3602,7 +3612,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_textAllCaps info.androidhive.tabsswipe:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_textAllCaps in.feedboard:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #AppCompatTextView_android_textAppearance
            @see #AppCompatTextView_textAllCaps
@@ -3617,14 +3627,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTextView_android_textAppearance = 0;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#textAllCaps}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name info.androidhive.tabsswipe:textAllCaps
+          @attr name in.feedboard:textAllCaps
         */
         public static final int AppCompatTextView_textAllCaps = 1;
         /** Attributes that can be used with a CardView.
@@ -3633,17 +3643,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CardView_cardBackgroundColor info.androidhive.tabsswipe:cardBackgroundColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardCornerRadius info.androidhive.tabsswipe:cardCornerRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardElevation info.androidhive.tabsswipe:cardElevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardMaxElevation info.androidhive.tabsswipe:cardMaxElevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardPreventCornerOverlap info.androidhive.tabsswipe:cardPreventCornerOverlap}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardUseCompatPadding info.androidhive.tabsswipe:cardUseCompatPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPadding info.androidhive.tabsswipe:contentPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingBottom info.androidhive.tabsswipe:contentPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingLeft info.androidhive.tabsswipe:contentPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingRight info.androidhive.tabsswipe:contentPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingTop info.androidhive.tabsswipe:contentPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardBackgroundColor in.feedboard:cardBackgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardCornerRadius in.feedboard:cardCornerRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardElevation in.feedboard:cardElevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardMaxElevation in.feedboard:cardMaxElevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardPreventCornerOverlap in.feedboard:cardPreventCornerOverlap}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardUseCompatPadding in.feedboard:cardUseCompatPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPadding in.feedboard:contentPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingBottom in.feedboard:contentPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingLeft in.feedboard:contentPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingRight in.feedboard:contentPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingTop in.feedboard:contentPaddingTop}</code></td><td></td></tr>
            </table>
            @see #CardView_cardBackgroundColor
            @see #CardView_cardCornerRadius
@@ -3663,7 +3673,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01002f, 0x7f010030, 0x7f010031
         };
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#cardBackgroundColor}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#cardBackgroundColor}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -3674,11 +3684,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:cardBackgroundColor
+          @attr name in.feedboard:cardBackgroundColor
         */
         public static final int CardView_cardBackgroundColor = 0;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#cardCornerRadius}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#cardCornerRadius}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -3690,11 +3700,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:cardCornerRadius
+          @attr name in.feedboard:cardCornerRadius
         */
         public static final int CardView_cardCornerRadius = 1;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#cardElevation}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#cardElevation}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -3706,11 +3716,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:cardElevation
+          @attr name in.feedboard:cardElevation
         */
         public static final int CardView_cardElevation = 2;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#cardMaxElevation}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#cardMaxElevation}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -3722,11 +3732,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:cardMaxElevation
+          @attr name in.feedboard:cardMaxElevation
         */
         public static final int CardView_cardMaxElevation = 3;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#cardPreventCornerOverlap}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#cardPreventCornerOverlap}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -3736,11 +3746,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:cardPreventCornerOverlap
+          @attr name in.feedboard:cardPreventCornerOverlap
         */
         public static final int CardView_cardPreventCornerOverlap = 5;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#cardUseCompatPadding}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#cardUseCompatPadding}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -3750,11 +3760,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:cardUseCompatPadding
+          @attr name in.feedboard:cardUseCompatPadding
         */
         public static final int CardView_cardUseCompatPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#contentPadding}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#contentPadding}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -3766,11 +3776,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:contentPadding
+          @attr name in.feedboard:contentPadding
         */
         public static final int CardView_contentPadding = 6;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#contentPaddingBottom}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#contentPaddingBottom}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -3782,11 +3792,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:contentPaddingBottom
+          @attr name in.feedboard:contentPaddingBottom
         */
         public static final int CardView_contentPaddingBottom = 10;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#contentPaddingLeft}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#contentPaddingLeft}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -3798,11 +3808,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:contentPaddingLeft
+          @attr name in.feedboard:contentPaddingLeft
         */
         public static final int CardView_contentPaddingLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#contentPaddingRight}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#contentPaddingRight}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -3814,11 +3824,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:contentPaddingRight
+          @attr name in.feedboard:contentPaddingRight
         */
         public static final int CardView_contentPaddingRight = 8;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#contentPaddingTop}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#contentPaddingTop}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -3830,7 +3840,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:contentPaddingTop
+          @attr name in.feedboard:contentPaddingTop
         */
         public static final int CardView_contentPaddingTop = 9;
         /** Attributes that can be used with a CollapsingAppBarLayout_LayoutParams.
@@ -3839,8 +3849,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseMode info.androidhive.tabsswipe:layout_collapseMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier info.androidhive.tabsswipe:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseMode in.feedboard:layout_collapseMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier in.feedboard:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
            </table>
            @see #CollapsingAppBarLayout_LayoutParams_layout_collapseMode
            @see #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier
@@ -3849,7 +3859,7 @@ containing a value of this type.
             0x7f010032, 0x7f010033
         };
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#layout_collapseMode}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#layout_collapseMode}
           attribute's value can be found in the {@link #CollapsingAppBarLayout_LayoutParams} array.
 
 
@@ -3863,11 +3873,11 @@ containing a value of this type.
 <tr><td><code>pin</code></td><td>1</td><td></td></tr>
 <tr><td><code>parallax</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name info.androidhive.tabsswipe:layout_collapseMode
+          @attr name in.feedboard:layout_collapseMode
         */
         public static final int CollapsingAppBarLayout_LayoutParams_layout_collapseMode = 0;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#layout_collapseParallaxMultiplier}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#layout_collapseParallaxMultiplier}
           attribute's value can be found in the {@link #CollapsingAppBarLayout_LayoutParams} array.
 
 
@@ -3877,7 +3887,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:layout_collapseParallaxMultiplier
+          @attr name in.feedboard:layout_collapseParallaxMultiplier
         */
         public static final int CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier = 1;
         /** Attributes that can be used with a CollapsingToolbarLayout.
@@ -3886,16 +3896,16 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance info.androidhive.tabsswipe:collapsedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim info.androidhive.tabsswipe:contentScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin info.androidhive.tabsswipe:expandedTitleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom info.androidhive.tabsswipe:expandedTitleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd info.androidhive.tabsswipe:expandedTitleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart info.androidhive.tabsswipe:expandedTitleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop info.androidhive.tabsswipe:expandedTitleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance info.androidhive.tabsswipe:expandedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim info.androidhive.tabsswipe:statusBarScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId info.androidhive.tabsswipe:toolbarId}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance in.feedboard:collapsedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim in.feedboard:contentScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin in.feedboard:expandedTitleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom in.feedboard:expandedTitleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd in.feedboard:expandedTitleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart in.feedboard:expandedTitleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop in.feedboard:expandedTitleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance in.feedboard:expandedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim in.feedboard:statusBarScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId in.feedboard:toolbarId}</code></td><td></td></tr>
            </table>
            @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
            @see #CollapsingToolbarLayout_contentScrim
@@ -3914,17 +3924,17 @@ containing a value of this type.
             0x7f01003c, 0x7f01003d
         };
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#collapsedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#collapsedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:collapsedTitleTextAppearance
+          @attr name in.feedboard:collapsedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance = 6;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#contentScrim}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#contentScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -3935,11 +3945,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:contentScrim
+          @attr name in.feedboard:contentScrim
         */
         public static final int CollapsingToolbarLayout_contentScrim = 7;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#expandedTitleMargin}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#expandedTitleMargin}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -3951,11 +3961,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:expandedTitleMargin
+          @attr name in.feedboard:expandedTitleMargin
         */
         public static final int CollapsingToolbarLayout_expandedTitleMargin = 0;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#expandedTitleMarginBottom}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#expandedTitleMarginBottom}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -3967,11 +3977,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:expandedTitleMarginBottom
+          @attr name in.feedboard:expandedTitleMarginBottom
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginBottom = 4;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#expandedTitleMarginEnd}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#expandedTitleMarginEnd}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -3983,11 +3993,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:expandedTitleMarginEnd
+          @attr name in.feedboard:expandedTitleMarginEnd
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#expandedTitleMarginStart}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#expandedTitleMarginStart}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -3999,11 +4009,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:expandedTitleMarginStart
+          @attr name in.feedboard:expandedTitleMarginStart
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginStart = 1;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#expandedTitleMarginTop}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#expandedTitleMarginTop}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4015,21 +4025,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:expandedTitleMarginTop
+          @attr name in.feedboard:expandedTitleMarginTop
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginTop = 2;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#expandedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#expandedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:expandedTitleTextAppearance
+          @attr name in.feedboard:expandedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_expandedTitleTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#statusBarScrim}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#statusBarScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -4040,17 +4050,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:statusBarScrim
+          @attr name in.feedboard:statusBarScrim
         */
         public static final int CollapsingToolbarLayout_statusBarScrim = 8;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#toolbarId}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#toolbarId}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:toolbarId
+          @attr name in.feedboard:toolbarId
         */
         public static final int CollapsingToolbarLayout_toolbarId = 9;
         /** Attributes that can be used with a CoordinatorLayout.
@@ -4059,8 +4069,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CoordinatorLayout_keylines info.androidhive.tabsswipe:keylines}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground info.androidhive.tabsswipe:statusBarBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_keylines in.feedboard:keylines}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground in.feedboard:statusBarBackground}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_keylines
            @see #CoordinatorLayout_statusBarBackground
@@ -4069,23 +4079,23 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01003e, 0x7f01003f
         };
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#keylines}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#keylines}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:keylines
+          @attr name in.feedboard:keylines
         */
         public static final int CoordinatorLayout_keylines = 0;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#statusBarBackground}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#statusBarBackground}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:statusBarBackground
+          @attr name in.feedboard:statusBarBackground
         */
         public static final int CoordinatorLayout_statusBarBackground = 1;
         /** Attributes that can be used with a CoordinatorLayout_LayoutParams.
@@ -4095,10 +4105,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CoordinatorLayout_LayoutParams_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchor info.androidhive.tabsswipe:layout_anchor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchorGravity info.androidhive.tabsswipe:layout_anchorGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_behavior info.androidhive.tabsswipe:layout_behavior}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_keyline info.androidhive.tabsswipe:layout_keyline}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchor in.feedboard:layout_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchorGravity in.feedboard:layout_anchorGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_behavior in.feedboard:layout_behavior}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_keyline in.feedboard:layout_keyline}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_LayoutParams_android_layout_gravity
            @see #CoordinatorLayout_LayoutParams_layout_anchor
@@ -4117,17 +4127,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CoordinatorLayout_LayoutParams_android_layout_gravity = 0;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#layout_anchor}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#layout_anchor}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:layout_anchor
+          @attr name in.feedboard:layout_anchor
         */
         public static final int CoordinatorLayout_LayoutParams_layout_anchor = 2;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#layout_anchorGravity}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#layout_anchorGravity}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -4152,11 +4162,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name info.androidhive.tabsswipe:layout_anchorGravity
+          @attr name in.feedboard:layout_anchorGravity
         */
         public static final int CoordinatorLayout_LayoutParams_layout_anchorGravity = 4;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#layout_behavior}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#layout_behavior}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -4166,11 +4176,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:layout_behavior
+          @attr name in.feedboard:layout_behavior
         */
         public static final int CoordinatorLayout_LayoutParams_layout_behavior = 1;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#layout_keyline}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#layout_keyline}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -4180,7 +4190,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:layout_keyline
+          @attr name in.feedboard:layout_keyline
         */
         public static final int CoordinatorLayout_LayoutParams_layout_keyline = 3;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -4189,14 +4199,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barSize info.androidhive.tabsswipe:barSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color info.androidhive.tabsswipe:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize info.androidhive.tabsswipe:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars info.androidhive.tabsswipe:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_middleBarArrowSize info.androidhive.tabsswipe:middleBarArrowSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars info.androidhive.tabsswipe:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness info.androidhive.tabsswipe:thickness}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_topBottomBarArrowSize info.androidhive.tabsswipe:topBottomBarArrowSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barSize in.feedboard:barSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color in.feedboard:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize in.feedboard:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars in.feedboard:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_middleBarArrowSize in.feedboard:middleBarArrowSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars in.feedboard:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness in.feedboard:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_topBottomBarArrowSize in.feedboard:topBottomBarArrowSize}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_barSize
            @see #DrawerArrowToggle_color
@@ -4212,7 +4222,7 @@ containing a value of this type.
             0x7f010048, 0x7f010049, 0x7f01004a, 0x7f01004b
         };
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#barSize}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#barSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4224,11 +4234,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:barSize
+          @attr name in.feedboard:barSize
         */
         public static final int DrawerArrowToggle_barSize = 6;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#color}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4239,11 +4249,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:color
+          @attr name in.feedboard:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4255,11 +4265,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:drawableSize
+          @attr name in.feedboard:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4271,11 +4281,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:gapBetweenBars
+          @attr name in.feedboard:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#middleBarArrowSize}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#middleBarArrowSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4287,11 +4297,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:middleBarArrowSize
+          @attr name in.feedboard:middleBarArrowSize
         */
         public static final int DrawerArrowToggle_middleBarArrowSize = 5;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4301,11 +4311,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:spinBars
+          @attr name in.feedboard:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#thickness}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4317,11 +4327,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:thickness
+          @attr name in.feedboard:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#topBottomBarArrowSize}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#topBottomBarArrowSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -4333,7 +4343,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:topBottomBarArrowSize
+          @attr name in.feedboard:topBottomBarArrowSize
         */
         public static final int DrawerArrowToggle_topBottomBarArrowSize = 4;
         /** Attributes that can be used with a FloatingActionButton.
@@ -4343,13 +4353,13 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #FloatingActionButton_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTint info.androidhive.tabsswipe:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode info.androidhive.tabsswipe:backgroundTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_borderWidth info.androidhive.tabsswipe:borderWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_elevation info.androidhive.tabsswipe:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fabSize info.androidhive.tabsswipe:fabSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ info.androidhive.tabsswipe:pressedTranslationZ}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_rippleColor info.androidhive.tabsswipe:rippleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTint in.feedboard:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode in.feedboard:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_borderWidth in.feedboard:borderWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_elevation in.feedboard:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fabSize in.feedboard:fabSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ in.feedboard:pressedTranslationZ}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_rippleColor in.feedboard:rippleColor}</code></td><td></td></tr>
            </table>
            @see #FloatingActionButton_android_background
            @see #FloatingActionButton_backgroundTint
@@ -4371,7 +4381,7 @@ containing a value of this type.
         */
         public static final int FloatingActionButton_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#backgroundTint}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -4382,11 +4392,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:backgroundTint
+          @attr name in.feedboard:backgroundTint
         */
         public static final int FloatingActionButton_backgroundTint = 6;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -4402,11 +4412,11 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name info.androidhive.tabsswipe:backgroundTintMode
+          @attr name in.feedboard:backgroundTintMode
         */
         public static final int FloatingActionButton_backgroundTintMode = 7;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#borderWidth}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#borderWidth}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -4418,11 +4428,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:borderWidth
+          @attr name in.feedboard:borderWidth
         */
         public static final int FloatingActionButton_borderWidth = 5;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#elevation}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#elevation}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -4434,11 +4444,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:elevation
+          @attr name in.feedboard:elevation
         */
         public static final int FloatingActionButton_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#fabSize}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#fabSize}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -4451,11 +4461,11 @@ containing a value of this type.
 <tr><td><code>normal</code></td><td>0</td><td></td></tr>
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name info.androidhive.tabsswipe:fabSize
+          @attr name in.feedboard:fabSize
         */
         public static final int FloatingActionButton_fabSize = 3;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#pressedTranslationZ}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#pressedTranslationZ}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -4467,11 +4477,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:pressedTranslationZ
+          @attr name in.feedboard:pressedTranslationZ
         */
         public static final int FloatingActionButton_pressedTranslationZ = 4;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#rippleColor}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#rippleColor}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -4482,7 +4492,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:rippleColor
+          @attr name in.feedboard:rippleColor
         */
         public static final int FloatingActionButton_rippleColor = 2;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -4496,10 +4506,10 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider info.androidhive.tabsswipe:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding info.androidhive.tabsswipe:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild info.androidhive.tabsswipe:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers info.androidhive.tabsswipe:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider in.feedboard:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding in.feedboard:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild in.feedboard:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers in.feedboard:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -4547,17 +4557,17 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#divider}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:divider
+          @attr name in.feedboard:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -4569,11 +4579,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:dividerPadding
+          @attr name in.feedboard:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -4583,11 +4593,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:measureWithLargestChild
+          @attr name in.feedboard:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -4602,7 +4612,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name info.androidhive.tabsswipe:showDividers
+          @attr name in.feedboard:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -4741,9 +4751,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout info.androidhive.tabsswipe:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass info.androidhive.tabsswipe:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass info.androidhive.tabsswipe:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout in.feedboard:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass in.feedboard:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass in.feedboard:actionViewClass}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -4757,7 +4767,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction info.androidhive.tabsswipe:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction in.feedboard:showAsAction}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -4785,17 +4795,17 @@ containing a value of this type.
             0x7f010056
         };
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:actionLayout
+          @attr name in.feedboard:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -4805,11 +4815,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:actionProviderClass
+          @attr name in.feedboard:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -4819,7 +4829,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:actionViewClass
+          @attr name in.feedboard:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -4901,7 +4911,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -4917,7 +4927,7 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name info.androidhive.tabsswipe:showAsAction
+          @attr name in.feedboard:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -4933,7 +4943,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing info.androidhive.tabsswipe:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing in.feedboard:preserveIconSpacing}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -4991,7 +5001,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -5001,7 +5011,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:preserveIconSpacing
+          @attr name in.feedboard:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /** Attributes that can be used with a NavigationView.
@@ -5013,12 +5023,12 @@ containing a value of this type.
            <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_elevation info.androidhive.tabsswipe:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_headerLayout info.androidhive.tabsswipe:headerLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemBackground info.androidhive.tabsswipe:itemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemIconTint info.androidhive.tabsswipe:itemIconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextColor info.androidhive.tabsswipe:itemTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_menu info.androidhive.tabsswipe:menu}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_elevation in.feedboard:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_headerLayout in.feedboard:headerLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemBackground in.feedboard:itemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemIconTint in.feedboard:itemIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextColor in.feedboard:itemTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_menu in.feedboard:menu}</code></td><td></td></tr>
            </table>
            @see #NavigationView_android_background
            @see #NavigationView_android_fitsSystemWindows
@@ -5054,7 +5064,7 @@ containing a value of this type.
         */
         public static final int NavigationView_android_maxWidth = 2;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#elevation}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#elevation}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -5066,31 +5076,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:elevation
+          @attr name in.feedboard:elevation
         */
         public static final int NavigationView_elevation = 3;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#headerLayout}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#headerLayout}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:headerLayout
+          @attr name in.feedboard:headerLayout
         */
         public static final int NavigationView_headerLayout = 8;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#itemBackground}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#itemBackground}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:itemBackground
+          @attr name in.feedboard:itemBackground
         */
         public static final int NavigationView_itemBackground = 7;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#itemIconTint}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#itemIconTint}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -5101,11 +5111,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:itemIconTint
+          @attr name in.feedboard:itemIconTint
         */
         public static final int NavigationView_itemIconTint = 5;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#itemTextColor}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#itemTextColor}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -5116,17 +5126,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:itemTextColor
+          @attr name in.feedboard:itemTextColor
         */
         public static final int NavigationView_itemTextColor = 6;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#menu}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#menu}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:menu
+          @attr name in.feedboard:menu
         */
         public static final int NavigationView_menu = 4;
         /** Attributes that can be used with a PagerSlidingTabStrip.
@@ -5135,17 +5145,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsDividerColor info.androidhive.tabsswipe:pstsDividerColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsDividerPadding info.androidhive.tabsswipe:pstsDividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsIndicatorColor info.androidhive.tabsswipe:pstsIndicatorColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsIndicatorHeight info.androidhive.tabsswipe:pstsIndicatorHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsScrollOffset info.androidhive.tabsswipe:pstsScrollOffset}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsShouldExpand info.androidhive.tabsswipe:pstsShouldExpand}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTabBackground info.androidhive.tabsswipe:pstsTabBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTabPaddingLeftRight info.androidhive.tabsswipe:pstsTabPaddingLeftRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTextAllCaps info.androidhive.tabsswipe:pstsTextAllCaps}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsUnderlineColor info.androidhive.tabsswipe:pstsUnderlineColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsUnderlineHeight info.androidhive.tabsswipe:pstsUnderlineHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsDividerColor in.feedboard:pstsDividerColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsDividerPadding in.feedboard:pstsDividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsIndicatorColor in.feedboard:pstsIndicatorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsIndicatorHeight in.feedboard:pstsIndicatorHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsScrollOffset in.feedboard:pstsScrollOffset}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsShouldExpand in.feedboard:pstsShouldExpand}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTabBackground in.feedboard:pstsTabBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTabPaddingLeftRight in.feedboard:pstsTabPaddingLeftRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTextAllCaps in.feedboard:pstsTextAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsUnderlineColor in.feedboard:pstsUnderlineColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsUnderlineHeight in.feedboard:pstsUnderlineHeight}</code></td><td></td></tr>
            </table>
            @see #PagerSlidingTabStrip_pstsDividerColor
            @see #PagerSlidingTabStrip_pstsDividerPadding
@@ -5165,7 +5175,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010065, 0x7f010066, 0x7f010067
         };
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#pstsDividerColor}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#pstsDividerColor}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -5176,11 +5186,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:pstsDividerColor
+          @attr name in.feedboard:pstsDividerColor
         */
         public static final int PagerSlidingTabStrip_pstsDividerColor = 2;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#pstsDividerPadding}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#pstsDividerPadding}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -5192,11 +5202,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:pstsDividerPadding
+          @attr name in.feedboard:pstsDividerPadding
         */
         public static final int PagerSlidingTabStrip_pstsDividerPadding = 5;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#pstsIndicatorColor}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#pstsIndicatorColor}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -5207,11 +5217,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:pstsIndicatorColor
+          @attr name in.feedboard:pstsIndicatorColor
         */
         public static final int PagerSlidingTabStrip_pstsIndicatorColor = 0;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#pstsIndicatorHeight}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#pstsIndicatorHeight}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -5223,11 +5233,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:pstsIndicatorHeight
+          @attr name in.feedboard:pstsIndicatorHeight
         */
         public static final int PagerSlidingTabStrip_pstsIndicatorHeight = 3;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#pstsScrollOffset}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#pstsScrollOffset}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -5239,11 +5249,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:pstsScrollOffset
+          @attr name in.feedboard:pstsScrollOffset
         */
         public static final int PagerSlidingTabStrip_pstsScrollOffset = 7;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#pstsShouldExpand}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#pstsShouldExpand}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -5253,21 +5263,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:pstsShouldExpand
+          @attr name in.feedboard:pstsShouldExpand
         */
         public static final int PagerSlidingTabStrip_pstsShouldExpand = 9;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#pstsTabBackground}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#pstsTabBackground}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:pstsTabBackground
+          @attr name in.feedboard:pstsTabBackground
         */
         public static final int PagerSlidingTabStrip_pstsTabBackground = 8;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#pstsTabPaddingLeftRight}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#pstsTabPaddingLeftRight}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -5279,11 +5289,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:pstsTabPaddingLeftRight
+          @attr name in.feedboard:pstsTabPaddingLeftRight
         */
         public static final int PagerSlidingTabStrip_pstsTabPaddingLeftRight = 6;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#pstsTextAllCaps}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#pstsTextAllCaps}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -5293,11 +5303,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:pstsTextAllCaps
+          @attr name in.feedboard:pstsTextAllCaps
         */
         public static final int PagerSlidingTabStrip_pstsTextAllCaps = 10;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#pstsUnderlineColor}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#pstsUnderlineColor}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -5308,11 +5318,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:pstsUnderlineColor
+          @attr name in.feedboard:pstsUnderlineColor
         */
         public static final int PagerSlidingTabStrip_pstsUnderlineColor = 1;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#pstsUnderlineHeight}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#pstsUnderlineHeight}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -5324,7 +5334,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:pstsUnderlineHeight
+          @attr name in.feedboard:pstsUnderlineHeight
         */
         public static final int PagerSlidingTabStrip_pstsUnderlineHeight = 4;
         /** Attributes that can be used with a PopupWindow.
@@ -5334,7 +5344,7 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor info.androidhive.tabsswipe:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor in.feedboard:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupBackground
            @see #PopupWindow_overlapAnchor
@@ -5349,7 +5359,7 @@ containing a value of this type.
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -5359,7 +5369,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:overlapAnchor
+          @attr name in.feedboard:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 1;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -5368,7 +5378,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor info.androidhive.tabsswipe:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor in.feedboard:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
@@ -5376,7 +5386,7 @@ containing a value of this type.
             0x7f010069
         };
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -5386,7 +5396,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:state_above_anchor
+          @attr name in.feedboard:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a RecyclerView.
@@ -5396,10 +5406,10 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_layoutManager info.androidhive.tabsswipe:layoutManager}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_reverseLayout info.androidhive.tabsswipe:reverseLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_spanCount info.androidhive.tabsswipe:spanCount}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_stackFromEnd info.androidhive.tabsswipe:stackFromEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_layoutManager in.feedboard:layoutManager}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_reverseLayout in.feedboard:reverseLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_spanCount in.feedboard:spanCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_stackFromEnd in.feedboard:stackFromEnd}</code></td><td></td></tr>
            </table>
            @see #RecyclerView_android_orientation
            @see #RecyclerView_layoutManager
@@ -5418,7 +5428,7 @@ containing a value of this type.
         */
         public static final int RecyclerView_android_orientation = 0;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#layoutManager}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#layoutManager}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -5428,11 +5438,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:layoutManager
+          @attr name in.feedboard:layoutManager
         */
         public static final int RecyclerView_layoutManager = 1;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#reverseLayout}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#reverseLayout}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -5442,11 +5452,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:reverseLayout
+          @attr name in.feedboard:reverseLayout
         */
         public static final int RecyclerView_reverseLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#spanCount}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#spanCount}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -5456,11 +5466,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:spanCount
+          @attr name in.feedboard:spanCount
         */
         public static final int RecyclerView_spanCount = 2;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#stackFromEnd}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#stackFromEnd}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -5470,7 +5480,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:stackFromEnd
+          @attr name in.feedboard:stackFromEnd
         */
         public static final int RecyclerView_stackFromEnd = 4;
         /** Attributes that can be used with a ScrimInsetsFrameLayout.
@@ -5479,7 +5489,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground info.androidhive.tabsswipe:insetForeground}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground in.feedboard:insetForeground}</code></td><td></td></tr>
            </table>
            @see #ScrimInsetsFrameLayout_insetForeground
          */
@@ -5487,7 +5497,7 @@ containing a value of this type.
             0x7f01006e
         };
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#insetForeground}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#insetForeground}
           attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
 
 
@@ -5495,7 +5505,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name info.androidhive.tabsswipe:insetForeground
+          @attr name in.feedboard:insetForeground
         */
         public static final int ScrimInsetsFrameLayout_insetForeground = 0;
         /** Attributes that can be used with a ScrollingViewBehavior_Params.
@@ -5504,7 +5514,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrollingViewBehavior_Params_behavior_overlapTop info.androidhive.tabsswipe:behavior_overlapTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrollingViewBehavior_Params_behavior_overlapTop in.feedboard:behavior_overlapTop}</code></td><td></td></tr>
            </table>
            @see #ScrollingViewBehavior_Params_behavior_overlapTop
          */
@@ -5512,7 +5522,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01006f
         };
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#behavior_overlapTop}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#behavior_overlapTop}
           attribute's value can be found in the {@link #ScrollingViewBehavior_Params} array.
 
 
@@ -5524,7 +5534,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:behavior_overlapTop
+          @attr name in.feedboard:behavior_overlapTop
         */
         public static final int ScrollingViewBehavior_Params_behavior_overlapTop = 0;
         /** Attributes that can be used with a SearchView.
@@ -5537,19 +5547,19 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon info.androidhive.tabsswipe:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon info.androidhive.tabsswipe:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_defaultQueryHint info.androidhive.tabsswipe:defaultQueryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon info.androidhive.tabsswipe:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault info.androidhive.tabsswipe:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout info.androidhive.tabsswipe:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground info.androidhive.tabsswipe:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint info.androidhive.tabsswipe:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchHintIcon info.androidhive.tabsswipe:searchHintIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon info.androidhive.tabsswipe:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground info.androidhive.tabsswipe:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout info.androidhive.tabsswipe:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon info.androidhive.tabsswipe:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon in.feedboard:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon in.feedboard:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_defaultQueryHint in.feedboard:defaultQueryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon in.feedboard:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault in.feedboard:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout in.feedboard:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground in.feedboard:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint in.feedboard:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchHintIcon in.feedboard:searchHintIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon in.feedboard:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground in.feedboard:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout in.feedboard:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon in.feedboard:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -5601,27 +5611,27 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:closeIcon
+          @attr name in.feedboard:closeIcon
         */
         public static final int SearchView_closeIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:commitIcon
+          @attr name in.feedboard:commitIcon
         */
         public static final int SearchView_commitIcon = 13;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#defaultQueryHint}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#defaultQueryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5631,21 +5641,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:defaultQueryHint
+          @attr name in.feedboard:defaultQueryHint
         */
         public static final int SearchView_defaultQueryHint = 7;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:goIcon
+          @attr name in.feedboard:goIcon
         */
         public static final int SearchView_goIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5655,31 +5665,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:iconifiedByDefault
+          @attr name in.feedboard:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#layout}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:layout
+          @attr name in.feedboard:layout
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:queryBackground
+          @attr name in.feedboard:queryBackground
         */
         public static final int SearchView_queryBackground = 15;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5689,57 +5699,57 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:queryHint
+          @attr name in.feedboard:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#searchHintIcon}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#searchHintIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:searchHintIcon
+          @attr name in.feedboard:searchHintIcon
         */
         public static final int SearchView_searchHintIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:searchIcon
+          @attr name in.feedboard:searchIcon
         */
         public static final int SearchView_searchIcon = 10;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:submitBackground
+          @attr name in.feedboard:submitBackground
         */
         public static final int SearchView_submitBackground = 16;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:suggestionRowLayout
+          @attr name in.feedboard:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:voiceIcon
+          @attr name in.feedboard:voiceIcon
         */
         public static final int SearchView_voiceIcon = 12;
         /** Attributes that can be used with a SnackbarLayout.
@@ -5749,8 +5759,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_elevation info.androidhive.tabsswipe:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth info.androidhive.tabsswipe:maxActionInlineWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_elevation in.feedboard:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth in.feedboard:maxActionInlineWidth}</code></td><td></td></tr>
            </table>
            @see #SnackbarLayout_android_maxWidth
            @see #SnackbarLayout_elevation
@@ -5766,7 +5776,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SnackbarLayout_android_maxWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#elevation}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#elevation}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -5778,11 +5788,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:elevation
+          @attr name in.feedboard:elevation
         */
         public static final int SnackbarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#maxActionInlineWidth}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#maxActionInlineWidth}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -5794,7 +5804,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:maxActionInlineWidth
+          @attr name in.feedboard:maxActionInlineWidth
         */
         public static final int SnackbarLayout_maxActionInlineWidth = 2;
         /** Attributes that can be used with a Spinner.
@@ -5810,10 +5820,10 @@ containing a value of this type.
            <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled info.androidhive.tabsswipe:disableChildrenWhenDisabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupPromptView info.androidhive.tabsswipe:popupPromptView}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_prompt info.androidhive.tabsswipe:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_spinnerMode info.androidhive.tabsswipe:spinnerMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled in.feedboard:disableChildrenWhenDisabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupPromptView in.feedboard:popupPromptView}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_prompt in.feedboard:prompt}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_spinnerMode in.feedboard:spinnerMode}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_background
            @see #Spinner_android_dropDownHorizontalOffset
@@ -5875,7 +5885,7 @@ containing a value of this type.
         */
         public static final int Spinner_android_popupBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#disableChildrenWhenDisabled}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#disableChildrenWhenDisabled}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -5885,31 +5895,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:disableChildrenWhenDisabled
+          @attr name in.feedboard:disableChildrenWhenDisabled
         */
         public static final int Spinner_disableChildrenWhenDisabled = 10;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#popupPromptView}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#popupPromptView}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:popupPromptView
+          @attr name in.feedboard:popupPromptView
         */
         public static final int Spinner_popupPromptView = 9;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#prompt}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#prompt}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:prompt
+          @attr name in.feedboard:prompt
         */
         public static final int Spinner_prompt = 7;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#spinnerMode}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#spinnerMode}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -5922,7 +5932,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>dialog</code></td><td>0</td><td></td></tr>
 <tr><td><code>dropdown</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name info.androidhive.tabsswipe:spinnerMode
+          @attr name in.feedboard:spinnerMode
         */
         public static final int Spinner_spinnerMode = 8;
         /** Attributes that can be used with a SwitchCompat.
@@ -5934,13 +5944,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText info.androidhive.tabsswipe:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack info.androidhive.tabsswipe:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth info.androidhive.tabsswipe:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding info.androidhive.tabsswipe:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance info.androidhive.tabsswipe:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding info.androidhive.tabsswipe:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track info.androidhive.tabsswipe:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText in.feedboard:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack in.feedboard:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth in.feedboard:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding in.feedboard:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance in.feedboard:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding in.feedboard:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track in.feedboard:track}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -5977,7 +5987,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#showText}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -5987,11 +5997,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:showText
+          @attr name in.feedboard:showText
         */
         public static final int SwitchCompat_showText = 9;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6001,11 +6011,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:splitTrack
+          @attr name in.feedboard:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 8;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6017,11 +6027,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:switchMinWidth
+          @attr name in.feedboard:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6033,21 +6043,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:switchPadding
+          @attr name in.feedboard:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 7;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:switchTextAppearance
+          @attr name in.feedboard:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6059,17 +6069,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:thumbTextPadding
+          @attr name in.feedboard:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#track}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:track
+          @attr name in.feedboard:track
         */
         public static final int SwitchCompat_track = 3;
         /** Attributes that can be used with a TabLayout.
@@ -6078,22 +6088,22 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #TabLayout_tabBackground info.androidhive.tabsswipe:tabBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabContentStart info.androidhive.tabsswipe:tabContentStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabGravity info.androidhive.tabsswipe:tabGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorColor info.androidhive.tabsswipe:tabIndicatorColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorHeight info.androidhive.tabsswipe:tabIndicatorHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMaxWidth info.androidhive.tabsswipe:tabMaxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMinWidth info.androidhive.tabsswipe:tabMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMode info.androidhive.tabsswipe:tabMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPadding info.androidhive.tabsswipe:tabPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingBottom info.androidhive.tabsswipe:tabPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingEnd info.androidhive.tabsswipe:tabPaddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingStart info.androidhive.tabsswipe:tabPaddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingTop info.androidhive.tabsswipe:tabPaddingTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabSelectedTextColor info.androidhive.tabsswipe:tabSelectedTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextAppearance info.androidhive.tabsswipe:tabTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextColor info.androidhive.tabsswipe:tabTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabBackground in.feedboard:tabBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabContentStart in.feedboard:tabContentStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabGravity in.feedboard:tabGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorColor in.feedboard:tabIndicatorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorHeight in.feedboard:tabIndicatorHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMaxWidth in.feedboard:tabMaxWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMinWidth in.feedboard:tabMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMode in.feedboard:tabMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPadding in.feedboard:tabPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingBottom in.feedboard:tabPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingEnd in.feedboard:tabPaddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingStart in.feedboard:tabPaddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingTop in.feedboard:tabPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabSelectedTextColor in.feedboard:tabSelectedTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextAppearance in.feedboard:tabTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextColor in.feedboard:tabTextColor}</code></td><td></td></tr>
            </table>
            @see #TabLayout_tabBackground
            @see #TabLayout_tabContentStart
@@ -6119,17 +6129,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010095, 0x7f010096, 0x7f010097, 0x7f010098
         };
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#tabBackground}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#tabBackground}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:tabBackground
+          @attr name in.feedboard:tabBackground
         */
         public static final int TabLayout_tabBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#tabContentStart}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#tabContentStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6141,11 +6151,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:tabContentStart
+          @attr name in.feedboard:tabContentStart
         */
         public static final int TabLayout_tabContentStart = 2;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#tabGravity}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#tabGravity}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6158,11 +6168,11 @@ containing a value of this type.
 <tr><td><code>fill</code></td><td>0</td><td></td></tr>
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name info.androidhive.tabsswipe:tabGravity
+          @attr name in.feedboard:tabGravity
         */
         public static final int TabLayout_tabGravity = 5;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#tabIndicatorColor}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#tabIndicatorColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6173,11 +6183,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:tabIndicatorColor
+          @attr name in.feedboard:tabIndicatorColor
         */
         public static final int TabLayout_tabIndicatorColor = 0;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#tabIndicatorHeight}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#tabIndicatorHeight}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6189,11 +6199,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:tabIndicatorHeight
+          @attr name in.feedboard:tabIndicatorHeight
         */
         public static final int TabLayout_tabIndicatorHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#tabMaxWidth}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#tabMaxWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6205,11 +6215,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:tabMaxWidth
+          @attr name in.feedboard:tabMaxWidth
         */
         public static final int TabLayout_tabMaxWidth = 7;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#tabMinWidth}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#tabMinWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6221,11 +6231,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:tabMinWidth
+          @attr name in.feedboard:tabMinWidth
         */
         public static final int TabLayout_tabMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#tabMode}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#tabMode}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6238,11 +6248,11 @@ containing a value of this type.
 <tr><td><code>scrollable</code></td><td>0</td><td></td></tr>
 <tr><td><code>fixed</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name info.androidhive.tabsswipe:tabMode
+          @attr name in.feedboard:tabMode
         */
         public static final int TabLayout_tabMode = 4;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#tabPadding}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#tabPadding}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6254,11 +6264,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:tabPadding
+          @attr name in.feedboard:tabPadding
         */
         public static final int TabLayout_tabPadding = 15;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#tabPaddingBottom}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#tabPaddingBottom}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6270,11 +6280,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:tabPaddingBottom
+          @attr name in.feedboard:tabPaddingBottom
         */
         public static final int TabLayout_tabPaddingBottom = 14;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#tabPaddingEnd}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#tabPaddingEnd}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6286,11 +6296,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:tabPaddingEnd
+          @attr name in.feedboard:tabPaddingEnd
         */
         public static final int TabLayout_tabPaddingEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#tabPaddingStart}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#tabPaddingStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6302,11 +6312,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:tabPaddingStart
+          @attr name in.feedboard:tabPaddingStart
         */
         public static final int TabLayout_tabPaddingStart = 11;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#tabPaddingTop}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#tabPaddingTop}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6318,11 +6328,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:tabPaddingTop
+          @attr name in.feedboard:tabPaddingTop
         */
         public static final int TabLayout_tabPaddingTop = 12;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#tabSelectedTextColor}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#tabSelectedTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6333,21 +6343,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:tabSelectedTextColor
+          @attr name in.feedboard:tabSelectedTextColor
         */
         public static final int TabLayout_tabSelectedTextColor = 10;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#tabTextAppearance}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#tabTextAppearance}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:tabTextAppearance
+          @attr name in.feedboard:tabTextAppearance
         */
         public static final int TabLayout_tabTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#tabTextColor}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#tabTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -6358,7 +6368,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:tabTextColor
+          @attr name in.feedboard:tabTextColor
         */
         public static final int TabLayout_tabTextColor = 9;
         /** Attributes that can be used with a TextAppearance.
@@ -6371,7 +6381,7 @@ containing a value of this type.
            <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextAppearance_textAllCaps info.androidhive.tabsswipe:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_textAllCaps in.feedboard:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #TextAppearance_android_textColor
            @see #TextAppearance_android_textSize
@@ -6408,14 +6418,14 @@ containing a value of this type.
         */
         public static final int TextAppearance_android_typeface = 1;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#textAllCaps}
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name info.androidhive.tabsswipe:textAllCaps
+          @attr name in.feedboard:textAllCaps
         */
         public static final int TextAppearance_textAllCaps = 4;
         /** Attributes that can be used with a TextInputLayout.
@@ -6425,9 +6435,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorEnabled info.androidhive.tabsswipe:errorEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorTextAppearance info.androidhive.tabsswipe:errorTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintTextAppearance info.androidhive.tabsswipe:hintTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorEnabled in.feedboard:errorEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorTextAppearance in.feedboard:errorTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintTextAppearance in.feedboard:hintTextAppearance}</code></td><td></td></tr>
            </table>
            @see #TextInputLayout_android_hint
            @see #TextInputLayout_errorEnabled
@@ -6444,7 +6454,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int TextInputLayout_android_hint = 0;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#errorEnabled}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#errorEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -6454,27 +6464,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:errorEnabled
+          @attr name in.feedboard:errorEnabled
         */
         public static final int TextInputLayout_errorEnabled = 2;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#errorTextAppearance}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#errorTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:errorTextAppearance
+          @attr name in.feedboard:errorTextAppearance
         */
         public static final int TextInputLayout_errorTextAppearance = 3;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#hintTextAppearance}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#hintTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:hintTextAppearance
+          @attr name in.feedboard:hintTextAppearance
         */
         public static final int TextInputLayout_hintTextAppearance = 1;
         /** Attributes that can be used with a Theme.
@@ -6483,113 +6493,113 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Theme_actionBarDivider info.androidhive.tabsswipe:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarItemBackground info.androidhive.tabsswipe:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarPopupTheme info.androidhive.tabsswipe:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSize info.androidhive.tabsswipe:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSplitStyle info.androidhive.tabsswipe:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarStyle info.androidhive.tabsswipe:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabBarStyle info.androidhive.tabsswipe:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabStyle info.androidhive.tabsswipe:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabTextStyle info.androidhive.tabsswipe:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTheme info.androidhive.tabsswipe:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarWidgetTheme info.androidhive.tabsswipe:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionButtonStyle info.androidhive.tabsswipe:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionDropDownStyle info.androidhive.tabsswipe:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextAppearance info.androidhive.tabsswipe:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextColor info.androidhive.tabsswipe:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeBackground info.androidhive.tabsswipe:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle info.androidhive.tabsswipe:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseDrawable info.androidhive.tabsswipe:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCopyDrawable info.androidhive.tabsswipe:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCutDrawable info.androidhive.tabsswipe:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeFindDrawable info.androidhive.tabsswipe:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePasteDrawable info.androidhive.tabsswipe:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePopupWindowStyle info.androidhive.tabsswipe:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable info.androidhive.tabsswipe:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeShareDrawable info.androidhive.tabsswipe:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSplitBackground info.androidhive.tabsswipe:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeStyle info.androidhive.tabsswipe:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable info.androidhive.tabsswipe:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowButtonStyle info.androidhive.tabsswipe:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowMenuStyle info.androidhive.tabsswipe:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_activityChooserViewStyle info.androidhive.tabsswipe:activityChooserViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogButtonGroupStyle info.androidhive.tabsswipe:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogCenterButtons info.androidhive.tabsswipe:alertDialogCenterButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogStyle info.androidhive.tabsswipe:alertDialogStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogTheme info.androidhive.tabsswipe:alertDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarDivider in.feedboard:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarItemBackground in.feedboard:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarPopupTheme in.feedboard:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSize in.feedboard:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSplitStyle in.feedboard:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarStyle in.feedboard:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabBarStyle in.feedboard:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabStyle in.feedboard:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabTextStyle in.feedboard:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTheme in.feedboard:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarWidgetTheme in.feedboard:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionButtonStyle in.feedboard:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionDropDownStyle in.feedboard:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextAppearance in.feedboard:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextColor in.feedboard:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeBackground in.feedboard:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle in.feedboard:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseDrawable in.feedboard:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCopyDrawable in.feedboard:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCutDrawable in.feedboard:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeFindDrawable in.feedboard:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePasteDrawable in.feedboard:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePopupWindowStyle in.feedboard:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable in.feedboard:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeShareDrawable in.feedboard:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSplitBackground in.feedboard:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeStyle in.feedboard:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable in.feedboard:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowButtonStyle in.feedboard:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowMenuStyle in.feedboard:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_activityChooserViewStyle in.feedboard:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogButtonGroupStyle in.feedboard:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogCenterButtons in.feedboard:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogStyle in.feedboard:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogTheme in.feedboard:alertDialogTheme}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_autoCompleteTextViewStyle info.androidhive.tabsswipe:autoCompleteTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_borderlessButtonStyle info.androidhive.tabsswipe:borderlessButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarButtonStyle info.androidhive.tabsswipe:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarNegativeButtonStyle info.androidhive.tabsswipe:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarNeutralButtonStyle info.androidhive.tabsswipe:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarPositiveButtonStyle info.androidhive.tabsswipe:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarStyle info.androidhive.tabsswipe:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonStyle info.androidhive.tabsswipe:buttonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonStyleSmall info.androidhive.tabsswipe:buttonStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_checkboxStyle info.androidhive.tabsswipe:checkboxStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_checkedTextViewStyle info.androidhive.tabsswipe:checkedTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorAccent info.androidhive.tabsswipe:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorButtonNormal info.androidhive.tabsswipe:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlActivated info.androidhive.tabsswipe:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlHighlight info.androidhive.tabsswipe:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlNormal info.androidhive.tabsswipe:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimary info.androidhive.tabsswipe:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimaryDark info.androidhive.tabsswipe:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorSwitchThumbNormal info.androidhive.tabsswipe:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dialogPreferredPadding info.androidhive.tabsswipe:dialogPreferredPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dialogTheme info.androidhive.tabsswipe:dialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerHorizontal info.androidhive.tabsswipe:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerVertical info.androidhive.tabsswipe:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropDownListViewStyle info.androidhive.tabsswipe:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight info.androidhive.tabsswipe:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextBackground info.androidhive.tabsswipe:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextColor info.androidhive.tabsswipe:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextStyle info.androidhive.tabsswipe:editTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_homeAsUpIndicator info.androidhive.tabsswipe:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator info.androidhive.tabsswipe:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listDividerAlertDialog info.androidhive.tabsswipe:listDividerAlertDialog}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPopupWindowStyle info.androidhive.tabsswipe:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeight info.androidhive.tabsswipe:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge info.androidhive.tabsswipe:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall info.androidhive.tabsswipe:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft info.androidhive.tabsswipe:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight info.androidhive.tabsswipe:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelBackground info.androidhive.tabsswipe:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListTheme info.androidhive.tabsswipe:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListWidth info.androidhive.tabsswipe:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupMenuStyle info.androidhive.tabsswipe:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupWindowStyle info.androidhive.tabsswipe:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_radioButtonStyle info.androidhive.tabsswipe:radioButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_ratingBarStyle info.androidhive.tabsswipe:ratingBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_searchViewStyle info.androidhive.tabsswipe:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackground info.androidhive.tabsswipe:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless info.androidhive.tabsswipe:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle info.androidhive.tabsswipe:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerStyle info.androidhive.tabsswipe:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_switchStyle info.androidhive.tabsswipe:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu info.androidhive.tabsswipe:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItem info.androidhive.tabsswipe:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItemSmall info.androidhive.tabsswipe:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle info.androidhive.tabsswipe:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle info.androidhive.tabsswipe:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu info.androidhive.tabsswipe:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textColorAlertDialogListItem info.androidhive.tabsswipe:textColorAlertDialogListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textColorSearchUrl info.androidhive.tabsswipe:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle info.androidhive.tabsswipe:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarStyle info.androidhive.tabsswipe:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBar info.androidhive.tabsswipe:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBarOverlay info.androidhive.tabsswipe:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionModeOverlay info.androidhive.tabsswipe:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMajor info.androidhive.tabsswipe:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMinor info.androidhive.tabsswipe:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMajor info.androidhive.tabsswipe:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMinor info.androidhive.tabsswipe:windowFixedWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowMinWidthMajor info.androidhive.tabsswipe:windowMinWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowMinWidthMinor info.androidhive.tabsswipe:windowMinWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowNoTitle info.androidhive.tabsswipe:windowNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_autoCompleteTextViewStyle in.feedboard:autoCompleteTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_borderlessButtonStyle in.feedboard:borderlessButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarButtonStyle in.feedboard:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarNegativeButtonStyle in.feedboard:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarNeutralButtonStyle in.feedboard:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarPositiveButtonStyle in.feedboard:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarStyle in.feedboard:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonStyle in.feedboard:buttonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonStyleSmall in.feedboard:buttonStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_checkboxStyle in.feedboard:checkboxStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_checkedTextViewStyle in.feedboard:checkedTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorAccent in.feedboard:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorButtonNormal in.feedboard:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlActivated in.feedboard:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlHighlight in.feedboard:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlNormal in.feedboard:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimary in.feedboard:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimaryDark in.feedboard:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorSwitchThumbNormal in.feedboard:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dialogPreferredPadding in.feedboard:dialogPreferredPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dialogTheme in.feedboard:dialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerHorizontal in.feedboard:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerVertical in.feedboard:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropDownListViewStyle in.feedboard:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight in.feedboard:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextBackground in.feedboard:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextColor in.feedboard:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextStyle in.feedboard:editTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_homeAsUpIndicator in.feedboard:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator in.feedboard:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listDividerAlertDialog in.feedboard:listDividerAlertDialog}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPopupWindowStyle in.feedboard:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeight in.feedboard:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge in.feedboard:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall in.feedboard:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft in.feedboard:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight in.feedboard:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelBackground in.feedboard:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListTheme in.feedboard:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListWidth in.feedboard:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupMenuStyle in.feedboard:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupWindowStyle in.feedboard:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_radioButtonStyle in.feedboard:radioButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_ratingBarStyle in.feedboard:ratingBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_searchViewStyle in.feedboard:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackground in.feedboard:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless in.feedboard:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle in.feedboard:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerStyle in.feedboard:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_switchStyle in.feedboard:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu in.feedboard:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItem in.feedboard:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItemSmall in.feedboard:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle in.feedboard:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle in.feedboard:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu in.feedboard:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textColorAlertDialogListItem in.feedboard:textColorAlertDialogListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textColorSearchUrl in.feedboard:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle in.feedboard:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarStyle in.feedboard:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBar in.feedboard:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBarOverlay in.feedboard:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionModeOverlay in.feedboard:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMajor in.feedboard:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMinor in.feedboard:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMajor in.feedboard:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMinor in.feedboard:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowMinWidthMajor in.feedboard:windowMinWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowMinWidthMinor in.feedboard:windowMinWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowNoTitle in.feedboard:windowNoTitle}</code></td><td></td></tr>
            </table>
            @see #Theme_actionBarDivider
            @see #Theme_actionBarItemBackground
@@ -6729,37 +6739,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010102, 0x7f010103, 0x7f010104
         };
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:actionBarDivider
+          @attr name in.feedboard:actionBarDivider
         */
         public static final int Theme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:actionBarItemBackground
+          @attr name in.feedboard:actionBarItemBackground
         */
         public static final int Theme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:actionBarPopupTheme
+          @attr name in.feedboard:actionBarPopupTheme
         */
         public static final int Theme_actionBarPopupTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionBarSize}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6779,111 +6789,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name info.androidhive.tabsswipe:actionBarSize
+          @attr name in.feedboard:actionBarSize
         */
         public static final int Theme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:actionBarSplitStyle
+          @attr name in.feedboard:actionBarSplitStyle
         */
         public static final int Theme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:actionBarStyle
+          @attr name in.feedboard:actionBarStyle
         */
         public static final int Theme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:actionBarTabBarStyle
+          @attr name in.feedboard:actionBarTabBarStyle
         */
         public static final int Theme_actionBarTabBarStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:actionBarTabStyle
+          @attr name in.feedboard:actionBarTabStyle
         */
         public static final int Theme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:actionBarTabTextStyle
+          @attr name in.feedboard:actionBarTabTextStyle
         */
         public static final int Theme_actionBarTabTextStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:actionBarTheme
+          @attr name in.feedboard:actionBarTheme
         */
         public static final int Theme_actionBarTheme = 20;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:actionBarWidgetTheme
+          @attr name in.feedboard:actionBarWidgetTheme
         */
         public static final int Theme_actionBarWidgetTheme = 21;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:actionButtonStyle
+          @attr name in.feedboard:actionButtonStyle
         */
         public static final int Theme_actionButtonStyle = 49;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:actionDropDownStyle
+          @attr name in.feedboard:actionDropDownStyle
         */
         public static final int Theme_actionDropDownStyle = 45;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:actionMenuTextAppearance
+          @attr name in.feedboard:actionMenuTextAppearance
         */
         public static final int Theme_actionMenuTextAppearance = 25;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -6891,181 +6901,181 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name info.androidhive.tabsswipe:actionMenuTextColor
+          @attr name in.feedboard:actionMenuTextColor
         */
         public static final int Theme_actionMenuTextColor = 26;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:actionModeBackground
+          @attr name in.feedboard:actionModeBackground
         */
         public static final int Theme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:actionModeCloseButtonStyle
+          @attr name in.feedboard:actionModeCloseButtonStyle
         */
         public static final int Theme_actionModeCloseButtonStyle = 28;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:actionModeCloseDrawable
+          @attr name in.feedboard:actionModeCloseDrawable
         */
         public static final int Theme_actionModeCloseDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:actionModeCopyDrawable
+          @attr name in.feedboard:actionModeCopyDrawable
         */
         public static final int Theme_actionModeCopyDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:actionModeCutDrawable
+          @attr name in.feedboard:actionModeCutDrawable
         */
         public static final int Theme_actionModeCutDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:actionModeFindDrawable
+          @attr name in.feedboard:actionModeFindDrawable
         */
         public static final int Theme_actionModeFindDrawable = 37;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:actionModePasteDrawable
+          @attr name in.feedboard:actionModePasteDrawable
         */
         public static final int Theme_actionModePasteDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:actionModePopupWindowStyle
+          @attr name in.feedboard:actionModePopupWindowStyle
         */
         public static final int Theme_actionModePopupWindowStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:actionModeSelectAllDrawable
+          @attr name in.feedboard:actionModeSelectAllDrawable
         */
         public static final int Theme_actionModeSelectAllDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:actionModeShareDrawable
+          @attr name in.feedboard:actionModeShareDrawable
         */
         public static final int Theme_actionModeShareDrawable = 36;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:actionModeSplitBackground
+          @attr name in.feedboard:actionModeSplitBackground
         */
         public static final int Theme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:actionModeStyle
+          @attr name in.feedboard:actionModeStyle
         */
         public static final int Theme_actionModeStyle = 27;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:actionModeWebSearchDrawable
+          @attr name in.feedboard:actionModeWebSearchDrawable
         */
         public static final int Theme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:actionOverflowButtonStyle
+          @attr name in.feedboard:actionOverflowButtonStyle
         */
         public static final int Theme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:actionOverflowMenuStyle
+          @attr name in.feedboard:actionOverflowMenuStyle
         */
         public static final int Theme_actionOverflowMenuStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:activityChooserViewStyle
+          @attr name in.feedboard:activityChooserViewStyle
         */
         public static final int Theme_activityChooserViewStyle = 57;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#alertDialogButtonGroupStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#alertDialogButtonGroupStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:alertDialogButtonGroupStyle
+          @attr name in.feedboard:alertDialogButtonGroupStyle
         */
         public static final int Theme_alertDialogButtonGroupStyle = 90;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#alertDialogCenterButtons}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#alertDialogCenterButtons}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7075,27 +7085,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:alertDialogCenterButtons
+          @attr name in.feedboard:alertDialogCenterButtons
         */
         public static final int Theme_alertDialogCenterButtons = 91;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#alertDialogStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#alertDialogStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:alertDialogStyle
+          @attr name in.feedboard:alertDialogStyle
         */
         public static final int Theme_alertDialogStyle = 89;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#alertDialogTheme}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#alertDialogTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:alertDialogTheme
+          @attr name in.feedboard:alertDialogTheme
         */
         public static final int Theme_alertDialogTheme = 92;
         /**
@@ -7111,117 +7121,117 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#autoCompleteTextViewStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#autoCompleteTextViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:autoCompleteTextViewStyle
+          @attr name in.feedboard:autoCompleteTextViewStyle
         */
         public static final int Theme_autoCompleteTextViewStyle = 97;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#borderlessButtonStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#borderlessButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:borderlessButtonStyle
+          @attr name in.feedboard:borderlessButtonStyle
         */
         public static final int Theme_borderlessButtonStyle = 54;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:buttonBarButtonStyle
+          @attr name in.feedboard:buttonBarButtonStyle
         */
         public static final int Theme_buttonBarButtonStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#buttonBarNegativeButtonStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#buttonBarNegativeButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:buttonBarNegativeButtonStyle
+          @attr name in.feedboard:buttonBarNegativeButtonStyle
         */
         public static final int Theme_buttonBarNegativeButtonStyle = 95;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#buttonBarNeutralButtonStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#buttonBarNeutralButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:buttonBarNeutralButtonStyle
+          @attr name in.feedboard:buttonBarNeutralButtonStyle
         */
         public static final int Theme_buttonBarNeutralButtonStyle = 96;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#buttonBarPositiveButtonStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#buttonBarPositiveButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:buttonBarPositiveButtonStyle
+          @attr name in.feedboard:buttonBarPositiveButtonStyle
         */
         public static final int Theme_buttonBarPositiveButtonStyle = 94;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:buttonBarStyle
+          @attr name in.feedboard:buttonBarStyle
         */
         public static final int Theme_buttonBarStyle = 50;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#buttonStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#buttonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:buttonStyle
+          @attr name in.feedboard:buttonStyle
         */
         public static final int Theme_buttonStyle = 98;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#buttonStyleSmall}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#buttonStyleSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:buttonStyleSmall
+          @attr name in.feedboard:buttonStyleSmall
         */
         public static final int Theme_buttonStyleSmall = 99;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#checkboxStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#checkboxStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:checkboxStyle
+          @attr name in.feedboard:checkboxStyle
         */
         public static final int Theme_checkboxStyle = 100;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#checkedTextViewStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#checkedTextViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:checkedTextViewStyle
+          @attr name in.feedboard:checkedTextViewStyle
         */
         public static final int Theme_checkedTextViewStyle = 101;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#colorAccent}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7232,11 +7242,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:colorAccent
+          @attr name in.feedboard:colorAccent
         */
         public static final int Theme_colorAccent = 83;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7247,11 +7257,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:colorButtonNormal
+          @attr name in.feedboard:colorButtonNormal
         */
         public static final int Theme_colorButtonNormal = 87;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7262,11 +7272,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:colorControlActivated
+          @attr name in.feedboard:colorControlActivated
         */
         public static final int Theme_colorControlActivated = 85;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7277,11 +7287,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:colorControlHighlight
+          @attr name in.feedboard:colorControlHighlight
         */
         public static final int Theme_colorControlHighlight = 86;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7292,11 +7302,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:colorControlNormal
+          @attr name in.feedboard:colorControlNormal
         */
         public static final int Theme_colorControlNormal = 84;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#colorPrimary}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7307,11 +7317,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:colorPrimary
+          @attr name in.feedboard:colorPrimary
         */
         public static final int Theme_colorPrimary = 81;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7322,11 +7332,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:colorPrimaryDark
+          @attr name in.feedboard:colorPrimaryDark
         */
         public static final int Theme_colorPrimaryDark = 82;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7337,11 +7347,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:colorSwitchThumbNormal
+          @attr name in.feedboard:colorSwitchThumbNormal
         */
         public static final int Theme_colorSwitchThumbNormal = 88;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#dialogPreferredPadding}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#dialogPreferredPadding}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7353,51 +7363,51 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:dialogPreferredPadding
+          @attr name in.feedboard:dialogPreferredPadding
         */
         public static final int Theme_dialogPreferredPadding = 43;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#dialogTheme}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#dialogTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:dialogTheme
+          @attr name in.feedboard:dialogTheme
         */
         public static final int Theme_dialogTheme = 42;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:dividerHorizontal
+          @attr name in.feedboard:dividerHorizontal
         */
         public static final int Theme_dividerHorizontal = 56;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#dividerVertical}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:dividerVertical
+          @attr name in.feedboard:dividerVertical
         */
         public static final int Theme_dividerVertical = 55;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:dropDownListViewStyle
+          @attr name in.feedboard:dropDownListViewStyle
         */
         public static final int Theme_dropDownListViewStyle = 73;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7409,21 +7419,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:dropdownListPreferredItemHeight
+          @attr name in.feedboard:dropdownListPreferredItemHeight
         */
         public static final int Theme_dropdownListPreferredItemHeight = 46;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#editTextBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:editTextBackground
+          @attr name in.feedboard:editTextBackground
         */
         public static final int Theme_editTextBackground = 63;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#editTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7431,61 +7441,61 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name info.androidhive.tabsswipe:editTextColor
+          @attr name in.feedboard:editTextColor
         */
         public static final int Theme_editTextColor = 62;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#editTextStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#editTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:editTextStyle
+          @attr name in.feedboard:editTextStyle
         */
         public static final int Theme_editTextStyle = 102;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:homeAsUpIndicator
+          @attr name in.feedboard:homeAsUpIndicator
         */
         public static final int Theme_homeAsUpIndicator = 48;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:listChoiceBackgroundIndicator
+          @attr name in.feedboard:listChoiceBackgroundIndicator
         */
         public static final int Theme_listChoiceBackgroundIndicator = 80;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#listDividerAlertDialog}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#listDividerAlertDialog}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:listDividerAlertDialog
+          @attr name in.feedboard:listDividerAlertDialog
         */
         public static final int Theme_listDividerAlertDialog = 44;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:listPopupWindowStyle
+          @attr name in.feedboard:listPopupWindowStyle
         */
         public static final int Theme_listPopupWindowStyle = 74;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7497,11 +7507,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:listPreferredItemHeight
+          @attr name in.feedboard:listPreferredItemHeight
         */
         public static final int Theme_listPreferredItemHeight = 68;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7513,11 +7523,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:listPreferredItemHeightLarge
+          @attr name in.feedboard:listPreferredItemHeightLarge
         */
         public static final int Theme_listPreferredItemHeightLarge = 70;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7529,11 +7539,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:listPreferredItemHeightSmall
+          @attr name in.feedboard:listPreferredItemHeightSmall
         */
         public static final int Theme_listPreferredItemHeightSmall = 69;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7545,11 +7555,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:listPreferredItemPaddingLeft
+          @attr name in.feedboard:listPreferredItemPaddingLeft
         */
         public static final int Theme_listPreferredItemPaddingLeft = 71;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7561,31 +7571,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:listPreferredItemPaddingRight
+          @attr name in.feedboard:listPreferredItemPaddingRight
         */
         public static final int Theme_listPreferredItemPaddingRight = 72;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#panelBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:panelBackground
+          @attr name in.feedboard:panelBackground
         */
         public static final int Theme_panelBackground = 77;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:panelMenuListTheme
+          @attr name in.feedboard:panelMenuListTheme
         */
         public static final int Theme_panelMenuListTheme = 79;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7597,171 +7607,171 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:panelMenuListWidth
+          @attr name in.feedboard:panelMenuListWidth
         */
         public static final int Theme_panelMenuListWidth = 78;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:popupMenuStyle
+          @attr name in.feedboard:popupMenuStyle
         */
         public static final int Theme_popupMenuStyle = 60;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:popupWindowStyle
+          @attr name in.feedboard:popupWindowStyle
         */
         public static final int Theme_popupWindowStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#radioButtonStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#radioButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:radioButtonStyle
+          @attr name in.feedboard:radioButtonStyle
         */
         public static final int Theme_radioButtonStyle = 103;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#ratingBarStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#ratingBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:ratingBarStyle
+          @attr name in.feedboard:ratingBarStyle
         */
         public static final int Theme_ratingBarStyle = 104;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:searchViewStyle
+          @attr name in.feedboard:searchViewStyle
         */
         public static final int Theme_searchViewStyle = 67;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:selectableItemBackground
+          @attr name in.feedboard:selectableItemBackground
         */
         public static final int Theme_selectableItemBackground = 52;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:selectableItemBackgroundBorderless
+          @attr name in.feedboard:selectableItemBackgroundBorderless
         */
         public static final int Theme_selectableItemBackgroundBorderless = 53;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:spinnerDropDownItemStyle
+          @attr name in.feedboard:spinnerDropDownItemStyle
         */
         public static final int Theme_spinnerDropDownItemStyle = 47;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:spinnerStyle
+          @attr name in.feedboard:spinnerStyle
         */
         public static final int Theme_spinnerStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#switchStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:switchStyle
+          @attr name in.feedboard:switchStyle
         */
         public static final int Theme_switchStyle = 106;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:textAppearanceLargePopupMenu
+          @attr name in.feedboard:textAppearanceLargePopupMenu
         */
         public static final int Theme_textAppearanceLargePopupMenu = 40;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:textAppearanceListItem
+          @attr name in.feedboard:textAppearanceListItem
         */
         public static final int Theme_textAppearanceListItem = 75;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:textAppearanceListItemSmall
+          @attr name in.feedboard:textAppearanceListItemSmall
         */
         public static final int Theme_textAppearanceListItemSmall = 76;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:textAppearanceSearchResultSubtitle
+          @attr name in.feedboard:textAppearanceSearchResultSubtitle
         */
         public static final int Theme_textAppearanceSearchResultSubtitle = 65;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:textAppearanceSearchResultTitle
+          @attr name in.feedboard:textAppearanceSearchResultTitle
         */
         public static final int Theme_textAppearanceSearchResultTitle = 64;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:textAppearanceSmallPopupMenu
+          @attr name in.feedboard:textAppearanceSmallPopupMenu
         */
         public static final int Theme_textAppearanceSmallPopupMenu = 41;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#textColorAlertDialogListItem}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#textColorAlertDialogListItem}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7769,11 +7779,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name info.androidhive.tabsswipe:textColorAlertDialogListItem
+          @attr name in.feedboard:textColorAlertDialogListItem
         */
         public static final int Theme_textColorAlertDialogListItem = 93;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7781,31 +7791,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name info.androidhive.tabsswipe:textColorSearchUrl
+          @attr name in.feedboard:textColorSearchUrl
         */
         public static final int Theme_textColorSearchUrl = 66;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:toolbarNavigationButtonStyle
+          @attr name in.feedboard:toolbarNavigationButtonStyle
         */
         public static final int Theme_toolbarNavigationButtonStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:toolbarStyle
+          @attr name in.feedboard:toolbarStyle
         */
         public static final int Theme_toolbarStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#windowActionBar}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7815,11 +7825,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:windowActionBar
+          @attr name in.feedboard:windowActionBar
         */
         public static final int Theme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7829,11 +7839,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:windowActionBarOverlay
+          @attr name in.feedboard:windowActionBarOverlay
         */
         public static final int Theme_windowActionBarOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7843,11 +7853,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:windowActionModeOverlay
+          @attr name in.feedboard:windowActionModeOverlay
         */
         public static final int Theme_windowActionModeOverlay = 5;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7862,11 +7872,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:windowFixedHeightMajor
+          @attr name in.feedboard:windowFixedHeightMajor
         */
         public static final int Theme_windowFixedHeightMajor = 9;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7881,11 +7891,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:windowFixedHeightMinor
+          @attr name in.feedboard:windowFixedHeightMinor
         */
         public static final int Theme_windowFixedHeightMinor = 7;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7900,11 +7910,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:windowFixedWidthMajor
+          @attr name in.feedboard:windowFixedWidthMajor
         */
         public static final int Theme_windowFixedWidthMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7919,11 +7929,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:windowFixedWidthMinor
+          @attr name in.feedboard:windowFixedWidthMinor
         */
         public static final int Theme_windowFixedWidthMinor = 8;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#windowMinWidthMajor}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#windowMinWidthMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7938,11 +7948,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:windowMinWidthMajor
+          @attr name in.feedboard:windowMinWidthMajor
         */
         public static final int Theme_windowMinWidthMajor = 10;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#windowMinWidthMinor}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#windowMinWidthMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7957,11 +7967,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:windowMinWidthMinor
+          @attr name in.feedboard:windowMinWidthMinor
         */
         public static final int Theme_windowMinWidthMinor = 11;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#windowNoTitle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#windowNoTitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7971,7 +7981,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:windowNoTitle
+          @attr name in.feedboard:windowNoTitle
         */
         public static final int Theme_windowNoTitle = 3;
         /** Attributes that can be used with a Toolbar.
@@ -7982,25 +7992,25 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription info.androidhive.tabsswipe:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon info.androidhive.tabsswipe:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd info.androidhive.tabsswipe:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft info.androidhive.tabsswipe:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight info.androidhive.tabsswipe:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart info.androidhive.tabsswipe:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight info.androidhive.tabsswipe:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription info.androidhive.tabsswipe:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon info.androidhive.tabsswipe:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme info.androidhive.tabsswipe:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle info.androidhive.tabsswipe:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance info.androidhive.tabsswipe:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title info.androidhive.tabsswipe:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom info.androidhive.tabsswipe:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd info.androidhive.tabsswipe:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart info.androidhive.tabsswipe:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop info.androidhive.tabsswipe:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins info.androidhive.tabsswipe:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance info.androidhive.tabsswipe:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription in.feedboard:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon in.feedboard:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd in.feedboard:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft in.feedboard:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight in.feedboard:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart in.feedboard:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight in.feedboard:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription in.feedboard:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon in.feedboard:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme in.feedboard:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle in.feedboard:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance in.feedboard:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title in.feedboard:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom in.feedboard:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd in.feedboard:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart in.feedboard:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop in.feedboard:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins in.feedboard:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance in.feedboard:titleTextAppearance}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -8045,7 +8055,7 @@ containing a value of this type.
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8055,21 +8065,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:collapseContentDescription
+          @attr name in.feedboard:collapseContentDescription
         */
         public static final int Toolbar_collapseContentDescription = 18;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:collapseIcon
+          @attr name in.feedboard:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 17;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8081,11 +8091,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:contentInsetEnd
+          @attr name in.feedboard:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 5;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8097,11 +8107,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:contentInsetLeft
+          @attr name in.feedboard:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 6;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8113,11 +8123,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:contentInsetRight
+          @attr name in.feedboard:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 7;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8129,11 +8139,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:contentInsetStart
+          @attr name in.feedboard:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 4;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8145,11 +8155,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:maxButtonHeight
+          @attr name in.feedboard:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 16;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8159,31 +8169,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:navigationContentDescription
+          @attr name in.feedboard:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 20;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:navigationIcon
+          @attr name in.feedboard:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 19;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:popupTheme
+          @attr name in.feedboard:popupTheme
         */
         public static final int Toolbar_popupTheme = 8;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8193,21 +8203,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:subtitle
+          @attr name in.feedboard:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:subtitleTextAppearance
+          @attr name in.feedboard:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 10;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#title}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8217,11 +8227,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:title
+          @attr name in.feedboard:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8233,11 +8243,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:titleMarginBottom
+          @attr name in.feedboard:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 15;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8249,11 +8259,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:titleMarginEnd
+          @attr name in.feedboard:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8265,11 +8275,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:titleMarginStart
+          @attr name in.feedboard:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 12;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8281,11 +8291,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:titleMarginTop
+          @attr name in.feedboard:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 14;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8297,17 +8307,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:titleMargins
+          @attr name in.feedboard:titleMargins
         */
         public static final int Toolbar_titleMargins = 11;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:titleTextAppearance
+          @attr name in.feedboard:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 9;
         /** Attributes that can be used with a View.
@@ -8318,11 +8328,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
            <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_backgroundTint info.androidhive.tabsswipe:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_backgroundTintMode info.androidhive.tabsswipe:backgroundTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd info.androidhive.tabsswipe:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart info.androidhive.tabsswipe:paddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_theme info.androidhive.tabsswipe:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_backgroundTint in.feedboard:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_backgroundTintMode in.feedboard:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd in.feedboard:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart in.feedboard:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_theme in.feedboard:theme}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_android_theme
@@ -8349,7 +8359,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int View_android_theme = 0;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#backgroundTint}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -8360,11 +8370,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:backgroundTint
+          @attr name in.feedboard:backgroundTint
         */
         public static final int View_backgroundTint = 5;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -8380,11 +8390,11 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name info.androidhive.tabsswipe:backgroundTintMode
+          @attr name in.feedboard:backgroundTintMode
         */
         public static final int View_backgroundTintMode = 6;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -8396,11 +8406,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:paddingEnd
+          @attr name in.feedboard:paddingEnd
         */
         public static final int View_paddingEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -8412,17 +8422,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name info.androidhive.tabsswipe:paddingStart
+          @attr name in.feedboard:paddingStart
         */
         public static final int View_paddingStart = 2;
         /**
-          <p>This symbol is the offset where the {@link info.androidhive.tabsswipe.R.attr#theme}
+          <p>This symbol is the offset where the {@link in.feedboard.R.attr#theme}
           attribute's value can be found in the {@link #View} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name info.androidhive.tabsswipe:theme
+          @attr name in.feedboard:theme
         */
         public static final int View_theme = 4;
         /** Attributes that can be used with a ViewStubCompat.
