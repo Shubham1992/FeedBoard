@@ -54,7 +54,9 @@
     </FrameLayout>
 <FrameLayout
     android:layout_width="fill_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:layout_marginTop="10dp">
 
     <Button
         android:id="@+id/btnhome"
@@ -65,20 +67,21 @@
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
         android:textColor="@color/black"
-
+        style="?android:attr/borderlessButtonStyle"
         android:background="#ffffff"
         android:gravity="center|left"
      android:layout_marginLeft="50dp"
 
         />
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="left"
-        android:src="@drawable/home"
 
-        android:paddingLeft="15dp"
-        android:paddingRight="10dp"/>
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_gravity="left|center"
+        android:background="@drawable/home"
+        android:layout_marginLeft="18dp"
+
+        />
 
 </FrameLayout>
 
@@ -96,18 +99,20 @@
             android:textColor="@color/black"
             android:id="@+id/news"
             android:background="#ffffff"
+            style="?android:attr/borderlessButtonStyle"
             android:gravity="center|left"
             android:layout_marginLeft="50dp"
 
             />
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="left"
-            android:src="@drawable/news"
 
-            android:paddingLeft="15dp"
-            android:paddingRight="10dp"/>
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_gravity="left|center"
+            android:background="@drawable/news"
+            android:layout_marginLeft="18dp"
+
+            />
 
 
     </FrameLayout>
@@ -126,16 +131,17 @@
             android:background="#ffffff"
             android:gravity="center|left"
             android:layout_marginLeft="50dp"
-
+            style="?android:attr/borderlessButtonStyle"
             />
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="left"
-            android:src="@drawable/movie"
 
-            android:paddingLeft="15dp"
-            android:paddingRight="10dp"/>
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_gravity="left|center"
+            android:background="@drawable/movie"
+            android:layout_marginLeft="18dp"
+
+            />
 
     </FrameLayout>
     <FrameLayout
@@ -153,16 +159,17 @@
             android:background="#ffffff"
             android:gravity="center|left"
             android:layout_marginLeft="50dp"
-
+            style="?android:attr/borderlessButtonStyle"
             />
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="left"
-            android:src="@drawable/light"
 
-            android:paddingLeft="15dp"
-            android:paddingRight="10dp"/>
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_gravity="left|center"
+            android:background="@drawable/light"
+            android:layout_marginLeft="18dp"
+
+          />
 
     </FrameLayout>
 
@@ -181,16 +188,17 @@
             android:background="#ffffff"
             android:gravity="center|left"
             android:layout_marginLeft="50dp"
-
+            style="?android:attr/borderlessButtonStyle"
             />
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="left"
-            android:src="@drawable/picture"
 
-            android:paddingLeft="15dp"
-            android:paddingRight="10dp"/>
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_gravity="left|center"
+            android:background="@drawable/image"
+            android:layout_marginLeft="18dp"
+
+            />
 
     </FrameLayout>
 
@@ -209,16 +217,17 @@
             android:background="#ffffff"
             android:gravity="center|left"
             android:layout_marginLeft="50dp"
-
+            style="?android:attr/borderlessButtonStyle"
             />
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="left"
-            android:src="@drawable/heart"
 
-            android:paddingLeft="15dp"
-            android:paddingRight="10dp"/>
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_gravity="left|center"
+            android:background="@drawable/heart"
+            android:layout_marginLeft="18dp"
+
+            />
 
 
     </FrameLayout>
@@ -238,16 +247,17 @@
             android:background="#ffffff"
             android:gravity="center|left"
             android:layout_marginLeft="50dp"
-
+            style="?android:attr/borderlessButtonStyle"
             />
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="left"
-            android:src="@drawable/business"
 
-            android:paddingLeft="15dp"
-            android:paddingRight="10dp"/>
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_gravity="left|center"
+            android:background="@drawable/business"
+            android:layout_marginLeft="18dp"
+
+            />
 
     </FrameLayout>
 

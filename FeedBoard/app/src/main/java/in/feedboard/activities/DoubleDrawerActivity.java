@@ -38,7 +38,7 @@ import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.ImageRequest;
 import com.android.volley.toolbox.JsonObjectRequest;
-import com.bartoszlipinski.recyclerviewheader.RecyclerViewHeader;
+
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -50,6 +50,7 @@ import java.util.Map;
 
 import in.feedboard.R;
 import in.feedboard.adapter.MyVolleySingleton;
+import in.feedboard.headerclass.RecyclerViewHeader;
 import in.feedboard.utils.JSONToList;
 
 import in.feedboard.adapter.HeadlinesTabsPagerAdapter;
