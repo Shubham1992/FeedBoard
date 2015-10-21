@@ -299,6 +299,7 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
         Typeface custom_font2 = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Bold.ttf");
 		btnHome.setTypeface(custom_font);
 		btnEntertainment.setTypeface(custom_font);
+
     }
 
 	@Override

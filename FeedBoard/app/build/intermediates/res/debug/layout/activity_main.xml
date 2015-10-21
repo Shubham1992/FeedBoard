@@ -56,6 +56,10 @@
                             android:layout_margin="10dp"
                             />
                     </android.support.v7.widget.Toolbar>
+			<android.support.v4.widget.SwipeRefreshLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/swipeLayoutid">
 			<FrameLayout
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
@@ -63,17 +67,14 @@
 
 
 
-					<android.support.v4.widget.SwipeRefreshLayout
-							android:layout_width="match_parent"
-							android:layout_height="wrap_content"
-						android:id="@+id/swipeLayoutid">
+
 
 					<android.support.v7.widget.RecyclerView
 						android:layout_width="match_parent"
 						android:layout_height="match_parent"
 						android:id="@+id/rvHome"
 						/>
-				</android.support.v4.widget.SwipeRefreshLayout>
+
 				<in.feedboard.headerclass.RecyclerViewHeader
 					android:id="@+id/header"
 					android:layout_width="match_parent"
@@ -204,6 +205,7 @@
 				</in.feedboard.headerclass.RecyclerViewHeader>
 
 			</FrameLayout>
+			</android.support.v4.widget.SwipeRefreshLayout>
                 </LinearLayout>
 
 
@@ -246,4 +248,4 @@
 		android:background="#ffffff"
 		android:orientation="vertical"/>
 </android.support.v4.widget.DrawerLayout>
-</android.support.design.widget.CoordinatorLayout><!-- From: file:/C:/feeds/FeedBoard/app/src/main/res/layout/activity_main.xml -->
+</android.support.design.widget.CoordinatorLayout><!-- From: file:/H:/FeedBoard/app/src/main/res/layout/activity_main.xml -->
