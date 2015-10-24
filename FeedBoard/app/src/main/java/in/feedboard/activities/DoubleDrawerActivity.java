@@ -27,6 +27,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.Cache;
@@ -49,6 +50,7 @@ import java.util.List;
 import java.util.Map;
 
 import in.feedboard.R;
+import in.feedboard.adapter.EndlessRecyclerOnScrollListener;
 import in.feedboard.adapter.MyVolleySingleton;
 import in.feedboard.headerclass.RecyclerViewHeader;
 import in.feedboard.utils.JSONToList;
@@ -88,6 +90,13 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
     ViewGroup vgCntnr;
     SwipeRefreshLayout swipeRefreshLayout;
     ImageView headLineBookmark;
+    private Button btnFunny , btnHealth, btnSports;
+    private Fragment funnyFragment;
+    private Button btnBusiness;
+    private Fragment businessFragment;
+    private Fragment sportsFragment;
+    private TextView toolbartitle;
+    private ImageView btnShare;
 
     @Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -96,6 +105,7 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
 		/*LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
 		View view = inflater.inflate(R.layout.toolbar, null);*/
 		toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbartitle = (TextView) findViewById(R.id.toolbartitle);
 	    headLineBookmark = (ImageView) findViewById(R.id.bookmark);
 
         swipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipeLayoutid);
@@ -174,19 +184,23 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
 
         rvHome.setLayoutManager(layoutManager2);
 
+        rvHome.addOnScrollListener(new EndlessRecyclerOnScrollListener(layoutManager2) {
+            @Override
+            public void onLoadMore(int current_page) {
+                Log.e("last", "item");
+                 // do something...
+            }
+        });
 
 
 
 
-        RecyclerViewHeader header = (RecyclerViewHeader) findViewById( R.id.header);
-        header.attachTo(rvHome, true);
 
 
 
 
 
 
-        makeJsonObjReq();
         makeJsonObjReqHeadlines();
         headLineBookmark.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -224,7 +238,28 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
 			getSupportFragmentManager().beginTransaction().
 					remove(techFragment).commit();
 		}
+        if(businessFragment != null)
+        {
+            getSupportFragmentManager().beginTransaction().
+                    remove(businessFragment).commit();
+        }
+        if(funnyFragment != null)
+        {
+            getSupportFragmentManager().beginTransaction().
+                    remove(funnyFragment).commit();
+        }
 
+        if(sportsFragment != null)
+        {
+            getSupportFragmentManager().beginTransaction().
+                    remove(sportsFragment).commit();
+        }
+        if(healthFragment != null)
+        {
+            getSupportFragmentManager().beginTransaction().
+                    remove(sportsFragment).commit();
+        }
+        toolbartitle.setText("FeedBoard");
 	}
     void setDrawerButtons()
     {
@@ -255,6 +290,7 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
                 getSupportFragmentManager().beginTransaction()
                         .add(R.id.fragmentHolder, newsFragment).commit();
                 mDrawerLayout.closeDrawers();
+                toolbartitle.setText("News");
             }
         });
 
@@ -273,6 +309,7 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
                 getSupportFragmentManager().beginTransaction()
                         .add(R.id.fragmentHolder, entertainmentFragment).commit();
                 mDrawerLayout.closeDrawers();
+                toolbartitle.setText("Entertainment");
             }
         });
 
@@ -291,14 +328,98 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
                 getSupportFragmentManager().beginTransaction()
                         .add(R.id.fragmentHolder, techFragment).commit();
                 mDrawerLayout.closeDrawers();
+                toolbartitle.setText("Technology");
             }
         });
 
+        btnFunny = (Button) findViewById(R.id.funny);
+        btnFunny.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view)
+            {
+                //clear all fragments function
+                clearAllFragments();
 
-        Typeface custom_font = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Medium.ttf");
-        Typeface custom_font2 = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Bold.ttf");
+                funnyFragment = new Funny();
+                vgCntnr.setVisibility(View.GONE);
+
+                getSupportFragmentManager().beginTransaction()
+                        .add(R.id.fragmentHolder, funnyFragment).commit();
+                mDrawerLayout.closeDrawers();
+                toolbartitle.setText("Funny");
+            }
+        });
+
+        btnSports = (Button) findViewById(R.id.sports);
+        btnSports.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view)
+            {
+                //clear all fragments function
+                clearAllFragments();
+
+               sportsFragment = new Sports();
+                vgCntnr.setVisibility(View.GONE);
+
+                getSupportFragmentManager().beginTransaction()
+                        .add(R.id.fragmentHolder, sportsFragment).commit();
+                mDrawerLayout.closeDrawers();
+                toolbartitle.setText("Sports");
+            }
+        });
+
+        btnHealth = (Button) findViewById(R.id.health);
+        btnHealth.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view)
+            {
+                //clear all fragments function
+                clearAllFragments();
+
+                healthFragment = new Health();
+                vgCntnr.setVisibility(View.GONE);
+
+                getSupportFragmentManager().beginTransaction()
+                        .add(R.id.fragmentHolder, healthFragment).commit();
+                mDrawerLayout.closeDrawers();
+                toolbartitle.setText("Health");
+            }
+        });
+
+        btnBusiness = (Button) findViewById(R.id.business);
+        btnBusiness.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view)
+            {
+                //clear all fragments function
+                clearAllFragments();
+
+                businessFragment = new Business();
+                vgCntnr.setVisibility(View.GONE);
+
+                getSupportFragmentManager().beginTransaction()
+                        .add(R.id.fragmentHolder, businessFragment).commit();
+                mDrawerLayout.closeDrawers();
+                toolbartitle.setText("Business");
+            }
+        });
+
+        Typeface custom_font = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Regular.ttf");
+
 		btnHome.setTypeface(custom_font);
 		btnEntertainment.setTypeface(custom_font);
+        btnNews.setTypeface(custom_font);
+        btnTechnology.setTypeface(custom_font);
+        btnFunny.setTypeface(custom_font);
+        btnSports.setTypeface(custom_font);
+        btnHealth.setTypeface(custom_font);
+        btnBusiness.setTypeface(custom_font);
+
+
 
     }
 
@@ -306,7 +427,7 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu items for use in the action bar
 		MenuInflater inflater = getMenuInflater();
-		inflater.inflate(R.menu.main, menu);
+		inflater.inflate(R.menu.main_menu, menu);
 		return super.onCreateOptionsMenu(menu);
 	}
 
@@ -391,6 +512,10 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
                         RVAdapter rvAdapter = new RVAdapter(list , DoubleDrawerActivity.this);
                         rvHome.setAdapter(rvAdapter);
                         swipeRefreshLayout.setRefreshing(false);
+
+                        RecyclerViewHeader header = (RecyclerViewHeader) findViewById( R.id.header);
+                        header.attachTo(rvHome, true);
+                        setButtonsShareAndBookmark();
                     }
                 }, new Response.ErrorListener() {
 
@@ -432,6 +557,18 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
         return null;
 
     }
+
+    void setButtonsShareAndBookmark()
+    {
+        btnShare = (ImageView) findViewById(R.id.share);
+        btnShare.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(DoubleDrawerActivity.this , "sharing", Toast.LENGTH_SHORT).show();
+            }
+        });
+    }
+
     /**
      * Making json object request
      * */
@@ -448,7 +585,7 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
 
                         SavedViewpagerJson.getObject().setObj(response);
                         setHeadlines(response);
-
+                        makeJsonObjReq();
                     }
                 }, new Response.ErrorListener() {
 

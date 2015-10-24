@@ -4,6 +4,7 @@
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
 	xmlns:fab="http://schemas.android.com/tools"
+	android:id="@+id/cordnatorFullDetail"
 
 	android:fitsSystemWindows="true">
 
@@ -65,6 +66,7 @@
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
 	android:id="@+id/scrollableview"
+	android:background="#ffffff"
 	app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
 	<LinearLayout
@@ -75,7 +77,13 @@
 		android:padding="10dp"
         >
 
-
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="........."
+			android:padding="10dp"
+			android:textColor="#000000"
+			android:id="@+id/tvHeadline"/>
 		<TextView
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
@@ -96,11 +104,11 @@
 		android:clickable="true"
 		app:layout_anchor="@+id/appbar"
 		app:layout_anchorGravity="bottom|right|end"
-		android:src="@drawable/icon"
+		android:src="@drawable/abc_ic_menu_share_mtrl_alpha"
 
 		 />
 
 
 
 
-</android.support.design.widget.CoordinatorLayout><!-- From: file:/H:/FeedBoard/app/src/main/res/layout/full_details.xml -->
+</android.support.design.widget.CoordinatorLayout><!-- From: file:/C:/feeds/FeedBoard/app/src/main/res/layout/full_details.xml -->

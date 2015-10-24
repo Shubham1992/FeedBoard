@@ -68,7 +68,7 @@ public class Technology extends Fragment {
 
 							JSONToList jsonToList = new JSONToList();
 							list = jsonToList.getListFromJSON(response);
-							Log.e("entertainment response", list.toString());
+							Log.e("tech response", list.toString());
 
 						} catch (JSONException e)
 						{

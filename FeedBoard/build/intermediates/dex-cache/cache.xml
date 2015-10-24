@@ -2,74 +2,74 @@
 <items version="2" >
 
     <item
-        jar="H:\FeedBoard\app\build\intermediates\exploded-aar\com.android.support\design\22.2.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="1821601ddbec5ff125653097812823388700af74">
-        <dex dex="H:\FeedBoard\app\build\intermediates\pre-dexed\debug\classes-62bfa0dd107f328f477721151302a753bdc4c471.jar" />
-    </item>
-    <item
-        jar="H:\FeedBoard\app\build\intermediates\exploded-aar\com.astuetz\pagerslidingtabstrip\1.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="7912610ed96381c25c36d986eba422731b9641b6">
-        <dex dex="H:\FeedBoard\app\build\intermediates\pre-dexed\debug\classes-71d798604c6b26e14cb8444b6b10578713a46db1.jar" />
-    </item>
-    <item
-        jar="H:\FeedBoard\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="40e7757d9b06db670062ddb3cf5b30c129b2fd8c">
-        <dex dex="H:\FeedBoard\app\build\intermediates\pre-dexed\debug\classes-779a2f13e0785b8a2cac2b4708881ba41e37851e.jar" />
-    </item>
-    <item
-        jar="H:\FeedBoard\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
-        <dex dex="H:\FeedBoard\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-09c3fa2741a4b11d1b43fb627da047f981d61e86.jar" />
-    </item>
-    <item
-        jar="H:\FeedBoard\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.3\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
-        <dex dex="H:\FeedBoard\app\build\intermediates\pre-dexed\debug\classes-1184c6c0c6d56d9eef56df264b3d0f8826132abd.jar" />
-    </item>
-    <item
-        jar="H:\FeedBoard\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\jars\classes.jar"
+        jar="C:\feeds\FeedBoard\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.0"
         sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
-        <dex dex="H:\FeedBoard\app\build\intermediates\pre-dexed\debug\classes-85e20ebe10d4d2d6bf7c21e8534c3f4431075c89.jar" />
+        <dex dex="C:\feeds\FeedBoard\app\build\intermediates\pre-dexed\debug\classes-7a1c45ecb49ebf9b2c7b78ac03a8804c16b55110.jar" />
     </item>
     <item
-        jar="C:\Users\Shubham\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jar="C:\feeds\FeedBoard\app\build\intermediates\exploded-aar\com.android.support\design\22.2.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
-        <dex dex="H:\FeedBoard\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0-c25103427899ba3be75af50fede451f7368b1b79.jar" />
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="C:\feeds\FeedBoard\app\build\intermediates\pre-dexed\debug\classes-05c3907ac83dad2b0d8ccc7a34d6615643e6dfaa.jar" />
     </item>
     <item
-        jar="H:\FeedBoard\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
-        <dex dex="H:\FeedBoard\app\build\intermediates\pre-dexed\debug\classes-544804afccb2ad94cbcb803ed850641e6a376800.jar" />
-    </item>
-    <item
-        jar="H:\FeedBoard\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
-        <dex dex="H:\FeedBoard\app\build\intermediates\pre-dexed\debug\classes-ae8c7fe2af8d288f022fd818f926e6b131d7fb40.jar" />
-    </item>
-    <item
-        jar="H:\FeedBoard\app\build\intermediates\exploded-aar\com.bartoszlipinski.recyclerviewheader\library\1.2.0\jars\classes.jar"
+        jar="C:\feeds\FeedBoard\app\build\intermediates\exploded-aar\com.bartoszlipinski.recyclerviewheader\library\1.2.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.0"
         sha1="e6682c1ddbf9360c3bfc7b3780040500b81f2895">
-        <dex dex="H:\FeedBoard\app\build\intermediates\pre-dexed\debug\classes-cee36655ba66199051f832a2e287d18ee0099bd2.jar" />
+        <dex dex="C:\feeds\FeedBoard\app\build\intermediates\pre-dexed\debug\classes-12b8265938523f8607af89f9de0c2051d77527d3.jar" />
+    </item>
+    <item
+        jar="C:\feeds\FeedBoard\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="C:\feeds\FeedBoard\app\build\intermediates\pre-dexed\debug\classes-37fb539b88a926bddcf66eae197d985a592bd36d.jar" />
+    </item>
+    <item
+        jar="C:\feeds\FeedBoard\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="40e7757d9b06db670062ddb3cf5b30c129b2fd8c">
+        <dex dex="C:\feeds\FeedBoard\app\build\intermediates\pre-dexed\debug\classes-7ece882f3c525b1cab4bb6f64fcb33d155960941.jar" />
+    </item>
+    <item
+        jar="C:\feeds\FeedBoard\app\build\intermediates\exploded-aar\com.github.yasevich\endless-recycler-view\1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="0ef95b5256e64b43ae000397ae2968247c74318e">
+        <dex dex="C:\feeds\FeedBoard\app\build\intermediates\pre-dexed\debug\classes-7d477670ff93d6cb90ee0e9dd5310df53960f344.jar" />
+    </item>
+    <item
+        jar="C:\feeds\FeedBoard\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="C:\feeds\FeedBoard\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-88971f9310a2d7882ff8eeb2f4090f5997431354.jar" />
+    </item>
+    <item
+        jar="C:\feeds\FeedBoard\app\build\intermediates\exploded-aar\com.astuetz\pagerslidingtabstrip\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="7912610ed96381c25c36d986eba422731b9641b6">
+        <dex dex="C:\feeds\FeedBoard\app\build\intermediates\pre-dexed\debug\classes-d98461744893be1227de9ada9cdd18344c830e82.jar" />
+    </item>
+    <item
+        jar="C:\feeds\FeedBoard\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\feeds\FeedBoard\app\build\intermediates\pre-dexed\debug\classes-149f456fd35c515f8e4e57300f5f06fbd29a0b87.jar" />
+    </item>
+    <item
+        jar="C:\feeds\FeedBoard\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="C:\feeds\FeedBoard\app\build\intermediates\pre-dexed\debug\classes-a3718856d5b8ec9cfa5630b5ebe08ff80e18a531.jar" />
     </item>
 
 </items>

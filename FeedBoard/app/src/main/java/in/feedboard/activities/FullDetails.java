@@ -8,6 +8,7 @@ import android.media.Image;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.NavUtils;
 import android.support.v4.widget.NestedScrollView;
 
@@ -17,9 +18,11 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
@@ -56,12 +59,13 @@ public class FullDetails extends AppCompatActivity
 	String tag_json_obj = "json_obj_req";
 	ImageView headerImage, tmpImg; LinearLayout  detailContainer;
 	TextView tvDetails;
+	ViewGroup coordinatorLayout;
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
 	{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.full_details);
-
+		coordinatorLayout = (ViewGroup) findViewById(R.id.cordnatorFullDetail);
 		headerImage = (ImageView)findViewById(R.id.header);
 		detailContainer = (LinearLayout) findViewById(R.id.details_container);
 		tmpImg = (ImageView)findViewById(R.id.tmpImg);
@@ -108,7 +112,10 @@ public class FullDetails extends AppCompatActivity
 	}
 
 	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
+	public boolean onCreateOptionsMenu(Menu menu)
+	{
+
+		getMenuInflater().inflate(R.menu.main, menu);
 		return super.onCreateOptionsMenu(menu);
 	}
 
@@ -118,6 +125,15 @@ public class FullDetails extends AppCompatActivity
 			// Respond to the action bar's Up/Home button
 			case android.R.id.home:
 				finish();
+				return true;
+
+			case R.id.action_bookmark:
+
+				//Toast.makeText(FullDetails.this , "Bookmarked", Toast.LENGTH_SHORT).show();
+				Snackbar snackbar = Snackbar
+						.make(coordinatorLayout, "Bookmarked", Snackbar.LENGTH_SHORT);
+
+				snackbar.show();
 				return true;
 		}
 		return super.onOptionsItemSelected(item);

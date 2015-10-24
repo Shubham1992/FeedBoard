@@ -204,7 +204,8 @@
 
         <FrameLayout
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+            android:visibility="gone">
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -230,6 +231,35 @@
             />
 
     </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Funny"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/black"
+                android:id="@+id/funny"
+                android:background="#ffffff"
+                android:gravity="center|left"
+                android:layout_marginLeft="50dp"
+                style="?android:attr/borderlessButtonStyle"
+                />
+            <ImageView
+
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_gravity="left|center"
+                android:background="@drawable/laughing"
+                android:layout_marginLeft="18dp"
+
+                />
+
+        </FrameLayout>
 
     <FrameLayout
         android:layout_width="fill_parent"
