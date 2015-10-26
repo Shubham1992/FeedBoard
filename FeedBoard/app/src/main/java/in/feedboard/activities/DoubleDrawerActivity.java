@@ -2,10 +2,17 @@ package in.feedboard.activities;
 
 
 import android.annotation.TargetApi;
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.graphics.Bitmap;
 import android.graphics.Typeface;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.Settings;
@@ -54,6 +61,7 @@ import in.feedboard.R;
 import in.feedboard.adapter.EndlessRecyclerOnScrollListener;
 import in.feedboard.adapter.MyVolleySingleton;
 import in.feedboard.headerclass.RecyclerViewHeader;
+import in.feedboard.utils.ConnectionCheck;
 import in.feedboard.utils.JSONToList;
 
 import in.feedboard.adapter.HeadlinesTabsPagerAdapter;
@@ -104,6 +112,7 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
 	private Button btnContribute, btnShareApp, btnRate, btnContact;
 	private Button btnAbout;
 	private Fragment contactFragment;
+    TextView tvLoading;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -114,20 +123,13 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
 		toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbartitle = (TextView) findViewById(R.id.toolbartitle);
 	    headLineBookmark = (ImageView) findViewById(R.id.bookmark);
+        tvLoading = (TextView) findViewById(R.id.tvLoading);
 
         swipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipeLayoutid);
 
         swipeRefreshLayout.setOnRefreshListener(this);
 
-       /* swipeRefreshLayout.post(new Runnable() {
-                                    @Override
-                                    public void run() {
-                                        swipeRefreshLayout.setRefreshing(true);
 
-                                        recreate();
-                                    }
-                                }
-        );*/
 			Log.e("toolbar", toolbar.toString());
 		if(toolbar != null)
 
@@ -137,6 +139,9 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		getSupportActionBar().setDisplayShowTitleEnabled(false);
 		//getSupportActionBar().setHomeButtonEnabled(true);
+
+
+
         inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
         if(mDrawerLayout == null || mLeftDrawerView == null || mRightDrawerView == null || mDrawerToggle == null) {
             // Configure navigation drawer
@@ -204,14 +209,11 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
 
 
 
+        // check for connection
+        checkConnectionAndSendReqst();
 
 
 
-
-
-        sendAndroidId();
-
-        makeJsonObjReqHeadlines();
         headLineBookmark.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -224,6 +226,57 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
         setDrawerButtons();
 
 
+    }
+
+    void checkConnectionAndSendReqst()
+    {
+
+
+        if(isConnected(DoubleDrawerActivity.this))
+        {
+
+            sendAndroidId();
+
+            makeJsonObjReqHeadlines();
+
+        }
+        else
+        {
+            buildDialog(DoubleDrawerActivity.this).show();
+        }
+
+    }
+    public boolean isConnected(Context context) {
+
+        ConnectivityManager cm = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo netinfo = cm.getActiveNetworkInfo();
+
+        if (netinfo != null && netinfo.isConnectedOrConnecting()) {
+            android.net.NetworkInfo wifi = cm.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
+            android.net.NetworkInfo mobile = cm.getNetworkInfo(ConnectivityManager.TYPE_MOBILE);
+
+            if((mobile != null && mobile.isConnectedOrConnecting()) || (wifi != null && wifi.isConnectedOrConnecting())) return true;
+            else return false;
+        } else return false;
+    }
+
+    public AlertDialog.Builder buildDialog(Context context) {
+        Log.e("build dialog", "building");
+        AlertDialog.Builder builder = new AlertDialog.Builder(context);
+        builder.setTitle("No Internet connection.");
+        builder.setMessage("You have no internet connection");
+
+        builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+                dialog.dismiss();
+                checkConnectionAndSendReqst();
+            }
+        });
+
+        return builder;
     }
 
     private void sendAndroidId()
@@ -601,7 +654,7 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
                         {
                             e.printStackTrace();
                         }
-
+                        tvLoading.setVisibility(View.GONE);
                         RVAdapter rvAdapter = new RVAdapter(list , DoubleDrawerActivity.this);
                         rvHome.setAdapter(rvAdapter);
                         swipeRefreshLayout.setRefreshing(false);
@@ -721,9 +774,9 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
 
     }
 
-    private void setHeadlines(JSONObject response)
+    private void setHeadlines(final JSONObject response)
     {      Log.e("setting", "headline");
-       TextView tvTitle = (TextView) findViewById(R.id.title);
+        TextView tvTitle = (TextView) findViewById(R.id.title);
 		TextView tvHeadline = (TextView) findViewById(R.id.tvHeadline);
 
         tvTitle.setText(response.optJSONArray("stories").optJSONObject(0).optString("title").toString());
@@ -733,6 +786,14 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
 		tvHeadline.setTypeface(custom_font);
 
 		final ImageView imgHead = (ImageView) findViewById(R.id.imgMain);
+        imgHead.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(DoubleDrawerActivity.this, FullDetails.class);
+                intent.putExtra("id",response.optJSONArray("stories").optJSONObject(0).optString("id").toString());
+                startActivity(intent);
+            }
+        });
         final ImageView imgTmp = (ImageView) findViewById(R.id.tmpImg);
 
         String imgurl =response.optJSONArray("stories").optJSONObject(0).optString("imageurl").toString();

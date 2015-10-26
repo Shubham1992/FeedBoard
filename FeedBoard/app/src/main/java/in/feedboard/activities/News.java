@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
@@ -37,6 +38,7 @@ public class News extends Fragment {
 	RecyclerView rvNews;
     Button button ;
 	String tag_json_obj = "json_obj_req";
+	TextView tvLoadingNews;
 
 
 
@@ -46,6 +48,7 @@ public class News extends Fragment {
 
 		View rootView = inflater.inflate(R.layout.news, container, false);
 		rvNews = (RecyclerView) rootView.findViewById(R.id.rvNews);
+		tvLoadingNews = (TextView) rootView.findViewById(R.id.tvLoadingnews);
      	StaggeredGridLayoutManager layoutManager = new StaggeredGridLayoutManager(1,StaggeredGridLayoutManager.VERTICAL);
 		final StaggeredGridLayoutManager layoutManager2 = new StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL);
 
@@ -88,7 +91,7 @@ public class News extends Fragment {
 						{
 							e.printStackTrace();
 						}
-
+						tvLoadingNews.setVisibility(View.GONE);
 						RVAdapter rvAdapter = new RVAdapter(list , getActivity());
 						rvNews.setAdapter(rvAdapter);
 					}

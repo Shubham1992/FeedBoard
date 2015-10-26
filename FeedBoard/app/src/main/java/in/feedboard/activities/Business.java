@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
@@ -34,6 +35,7 @@ public class Business extends Fragment {
 	private List<HashMap> list;
     RecyclerView rvBusiness;
 	String tag_json_obj = "json_obj_req";
+	private TextView tvLoading;
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
@@ -42,7 +44,7 @@ public class Business extends Fragment {
 		rvBusiness = (RecyclerView) rootView.findViewById(R.id.rvBusiness);
 		StaggeredGridLayoutManager layoutManager = new StaggeredGridLayoutManager(1,StaggeredGridLayoutManager.VERTICAL);
 		final StaggeredGridLayoutManager layoutManager2 = new StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL);
-
+        tvLoading = (TextView) rootView.findViewById(R.id.tvLoadingbuusiness);
 
 
 		rvBusiness.setLayoutManager(layoutManager2);
@@ -74,7 +76,7 @@ public class Business extends Fragment {
 						{
 							e.printStackTrace();
 						}
-
+                        tvLoading.setVisibility(View.GONE);
 						RVAdapter rvAdapter = new RVAdapter(list , getActivity());
 						rvBusiness.setAdapter(rvAdapter);
 					}
