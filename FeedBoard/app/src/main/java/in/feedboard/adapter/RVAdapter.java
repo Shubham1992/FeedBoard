@@ -5,6 +5,7 @@ import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.Typeface;
 import android.os.Build;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
@@ -66,6 +67,9 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.TrendViewHolder>{
             imgMain = (ImageView)itemView.findViewById(R.id.imgMain);
             tempImg = (ImageView)itemView.findViewById(R.id.tempimg);
             tvheadline = (TextView)itemView.findViewById(R.id.tvHeadline);
+            Typeface custom_font = Typeface.createFromAsset(context.getAssets(), "fonts/Roboto-Medium.ttf");
+
+            tvheadline.setTypeface(custom_font);
 
         }
     }

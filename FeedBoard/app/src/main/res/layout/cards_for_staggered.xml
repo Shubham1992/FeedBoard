@@ -84,10 +84,11 @@
 				android:text="Some description that may be around three lines long"
 				android:padding="10dp"
 				android:textSize="14dp"
-				android:textStyle="bold"
+				android:textStyle="normal"
 				android:id="@+id/tvHeadline"
 				android:layout_weight=".3"
 				android:textColor="#000000"
+
 				/>
 <LinearLayout
 	android:layout_width="fill_parent"

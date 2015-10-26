@@ -97,6 +97,8 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
     private Fragment sportsFragment;
     private TextView toolbartitle;
     private ImageView btnShare;
+    private Button btnLifestyle;
+    private Fragment lifestyleFragment;
 
     @Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -408,6 +410,25 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
             }
         });
 
+        btnLifestyle = (Button) findViewById(R.id.lifestyle);
+        btnLifestyle.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view)
+            {
+                //clear all fragments function
+                clearAllFragments();
+
+                lifestyleFragment = new Lifestyle();
+                vgCntnr.setVisibility(View.GONE);
+
+                getSupportFragmentManager().beginTransaction()
+                        .add(R.id.fragmentHolder, lifestyleFragment).commit();
+                mDrawerLayout.closeDrawers();
+                toolbartitle.setText("Lifestyle");
+            }
+        });
+
         Typeface custom_font = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Regular.ttf");
 
 		btnHome.setTypeface(custom_font);
@@ -418,6 +439,7 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
         btnSports.setTypeface(custom_font);
         btnHealth.setTypeface(custom_font);
         btnBusiness.setTypeface(custom_font);
+        btnLifestyle.setTypeface(custom_font);
 
 
 
