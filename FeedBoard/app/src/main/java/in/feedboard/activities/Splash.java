@@ -2,8 +2,12 @@ package in.feedboard.activities;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.Window;
+import android.view.WindowManager;
 
 import in.feedboard.R;
 
@@ -18,6 +22,11 @@ public class Splash extends Activity
 	{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.splash);
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+			Window window = getWindow();
+			window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+			window.setStatusBarColor(Color.parseColor("#019aae"));//0b616c
+		}
 		new Handler().postDelayed(new Runnable()
 		{
 

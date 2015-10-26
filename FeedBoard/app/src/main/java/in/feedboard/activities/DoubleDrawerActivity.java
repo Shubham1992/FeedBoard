@@ -2,6 +2,7 @@ package in.feedboard.activities;
 
 
 import android.annotation.TargetApi;
+import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.graphics.Bitmap;
 import android.graphics.Typeface;
@@ -99,8 +100,12 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
     private ImageView btnShare;
     private Button btnLifestyle;
     private Fragment lifestyleFragment;
+    private SharedPreferences sharedpreferences;
+	private Button btnContribute, btnShareApp, btnRate, btnContact;
+	private Button btnAbout;
+	private Fragment contactFragment;
 
-    @Override
+	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
@@ -186,13 +191,15 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
 
         rvHome.setLayoutManager(layoutManager2);
 
-        rvHome.addOnScrollListener(new EndlessRecyclerOnScrollListener(layoutManager2) {
-            @Override
-            public void onLoadMore(int current_page) {
-                Log.e("last", "item");
-                 // do something...
-            }
-        });
+        rvHome.addOnScrollListener(new EndlessRecyclerOnScrollListener(layoutManager2)
+		{
+			@Override
+			public void onLoadMore(int current_page)
+			{
+				Log.e("last", "item");
+				// do something...
+			}
+		});
 
 
 
@@ -202,6 +209,7 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
 
 
 
+        sendAndroidId();
 
         makeJsonObjReqHeadlines();
         headLineBookmark.setOnClickListener(new View.OnClickListener() {
@@ -218,8 +226,26 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
 
     }
 
+    private void sendAndroidId()
+    {
+        SharedPreferences prefs = getSharedPreferences("MY_PREFS_NAME", MODE_PRIVATE);
+        boolean isFirst = prefs.getBoolean("first", true);
+        if (isFirst == true) {
+            String android_id = Settings.Secure.getString(getContentResolver(),
+                    Settings.Secure.ANDROID_ID);
+          Log.e("android id first", android_id);
+        }
 
-	void clearAllFragments()
+
+        SharedPreferences.Editor editor = prefs.edit();
+
+        editor.putBoolean("first", false);
+
+        editor.commit();
+    }
+
+
+    void clearAllFragments()
 	{
 		if(newsFragment != null)
 		{
@@ -257,10 +283,23 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
                     remove(sportsFragment).commit();
         }
         if(healthFragment != null)
-        {
-            getSupportFragmentManager().beginTransaction().
-                    remove(sportsFragment).commit();
-        }
+		{
+			getSupportFragmentManager().beginTransaction().
+					remove(sportsFragment).commit();
+		}
+		if(lifestyleFragment != null)
+		{
+			getSupportFragmentManager().beginTransaction().
+					remove(lifestyleFragment).commit();
+		}
+
+
+		if(contactFragment != null)
+		{
+			getSupportFragmentManager().beginTransaction().
+					remove(contactFragment).commit();
+		}
+
         toolbartitle.setText("FeedBoard");
 	}
     void setDrawerButtons()
@@ -429,7 +468,36 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
             }
         });
 
-        Typeface custom_font = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Regular.ttf");
+
+
+		btnContribute = (Button) findViewById(R.id.contribute);
+		btnShareApp = (Button) findViewById(R.id.shareapp);
+		btnRate = (Button) findViewById(R.id.rate);
+		btnContact = (Button) findViewById(R.id.contact);
+		btnContact.setOnClickListener(new View.OnClickListener()
+		{
+			@Override
+			public void onClick(View view)
+			{
+				//clear all fragments function
+				clearAllFragments();
+
+				contactFragment = new Contact();
+				vgCntnr.setVisibility(View.GONE);
+
+				getSupportFragmentManager().beginTransaction()
+						.add(R.id.fragmentHolder, contactFragment).commit();
+				mDrawerLayout.closeDrawers();
+				toolbartitle.setText("Contact");
+			}
+		});
+		btnAbout = (Button) findViewById(R.id.about);
+
+
+
+
+
+		Typeface custom_font = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Regular.ttf");
 
 		btnHome.setTypeface(custom_font);
 		btnEntertainment.setTypeface(custom_font);
@@ -440,8 +508,11 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
         btnHealth.setTypeface(custom_font);
         btnBusiness.setTypeface(custom_font);
         btnLifestyle.setTypeface(custom_font);
-
-
+		btnContact.setTypeface(custom_font);
+		btnShareApp.setTypeface(custom_font);
+		btnRate.setTypeface(custom_font);
+		btnContribute.setTypeface(custom_font);
+		btnAbout.setTypeface(custom_font);
 
     }
 
@@ -642,7 +713,7 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
 
         // Adding request to request queue
         AppController.getInstance().addToRequestQueue(jsonObjReq,
-                tag_json_obj);
+				tag_json_obj);
 
         // Cancelling request
         // ApplicationController.getInstance().getRequestQueue().cancelAll(tag_json_obj);
@@ -651,12 +722,17 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
     }
 
     private void setHeadlines(JSONObject response)
-    {      Log.e("setting", "viewpager");
+    {      Log.e("setting", "headline");
        TextView tvTitle = (TextView) findViewById(R.id.title);
+		TextView tvHeadline = (TextView) findViewById(R.id.tvHeadline);
 
         tvTitle.setText(response.optJSONArray("stories").optJSONObject(0).optString("title").toString());
+		tvHeadline.setText(response.optJSONArray("stories").optJSONObject(0).optString("headline").toString());
+		Typeface custom_font = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Medium.ttf");
 
-        final ImageView imgHead = (ImageView) findViewById(R.id.imgMain);
+		tvHeadline.setTypeface(custom_font);
+
+		final ImageView imgHead = (ImageView) findViewById(R.id.imgMain);
         final ImageView imgTmp = (ImageView) findViewById(R.id.tmpImg);
 
         String imgurl =response.optJSONArray("stories").optJSONObject(0).optString("imageurl").toString();
@@ -683,33 +759,10 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
             //   makeImageRequest("http://www.feedboard.in/api/media/images/" + imgurl, holder.imgMain, holder.tempImg);
         }
 
-        //makeImageRequest("http://www.feedboard.in/api/media/images/"+imgurl, imgHead);
-    }
-
-
-    private void makeImageRequest(String url , ImageView img)
-    {
-        ImageLoader imageLoader = AppController.getInstance().getImageLoader();
-
-
-        // Loading image with placeholder and error image
-        imageLoader.get(url, ImageLoader.getImageListener(
-                img, R.drawable.ico_loading, R.drawable.ico_error));
-
-        Cache cache = AppController.getInstance().getRequestQueue().getCache();
-        Cache.Entry entry = cache.get(url);
-        if(entry != null){
-            try {
-                String data = new String(entry.data, "UTF-8");
-                // handle data, like converting it to xml, json, bitmap etc.,
-            } catch (UnsupportedEncodingException e) {
-                e.printStackTrace();
-            }
-        }else{
-            // cached response doesn't exists. Make a network call here
-        }
 
     }
+
+
 
 
     @Override

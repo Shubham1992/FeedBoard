@@ -13,28 +13,28 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.android.volley.Cache;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
-import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.ImageRequest;
 
-import java.io.UnsupportedEncodingException;
 import java.util.List;
 import java.util.Map;
 
 import in.feedboard.activities.FullDetails;
 import in.feedboard.R;
-import in.feedboard.app.AppController;
 
 public class RVAdapter extends RecyclerView.Adapter<RVAdapter.TrendViewHolder>{
 
 
-  List<Map> trendlist;
+
+
+    List<Map> trendlist;
 
     Context context;
     int loaderimg = R.drawable.ronaldo;
@@ -45,6 +45,8 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.TrendViewHolder>{
          trendlist =dv;
          context=c;
          Log.d("list in rv adapter", trendlist.toString());
+
+
     }
 
 
@@ -103,6 +105,7 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.TrendViewHolder>{
                 context.startActivity(intent);
             }
         });
+
 		holder.title.setText(titleText);
         if (imgurl != null)
 
@@ -115,8 +118,9 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.TrendViewHolder>{
                         @Override
                         public void onResponse(Bitmap bitmap) {
                             // set the image here
-                            holder.tempImg.setImageBitmap(bitmap);
-                            holder.imgMain.setBackground(holder.tempImg.getDrawable());
+							holder.tempImg.setImageBitmap(bitmap);
+							holder.imgMain.setBackground(holder.tempImg.getDrawable());
+
                             // hide the spinner here
                         }
                     }, 0, 0, null, null);

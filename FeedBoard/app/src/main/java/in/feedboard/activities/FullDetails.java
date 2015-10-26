@@ -1,6 +1,7 @@
 package in.feedboard.activities;
 
 import android.annotation.TargetApi;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
@@ -8,6 +9,7 @@ import android.media.Image;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.NavUtils;
 import android.support.v4.widget.NestedScrollView;
@@ -18,7 +20,12 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
+import android.view.WindowManager;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -32,11 +39,14 @@ import com.android.volley.VolleyError;
 import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.ImageRequest;
 import com.android.volley.toolbox.JsonObjectRequest;
+import com.flipboard.bottomsheet.BottomSheetLayout;
+import com.flipboard.bottomsheet.commons.IntentPickerSheetView;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -60,6 +70,14 @@ public class FullDetails extends AppCompatActivity
 	ImageView headerImage, tmpImg; LinearLayout  detailContainer;
 	TextView tvDetails;
 	ViewGroup coordinatorLayout;
+	FloatingActionButton fabShare;
+	private String shareBody = "feedboard.in";
+	private BottomSheetLayout bottomSheet;
+	private IntentPickerSheetView intentPickerSheet;
+	private Intent sharingIntent;
+	private Animation animFadein;
+	private TextView tvHeadline;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
 	{
@@ -70,11 +88,50 @@ public class FullDetails extends AppCompatActivity
 		detailContainer = (LinearLayout) findViewById(R.id.details_container);
 		tmpImg = (ImageView)findViewById(R.id.tmpImg);
 		tvDetails = (TextView) findViewById(R.id.tvDetails);
+		tvHeadline = (TextView) findViewById(R.id.tvHeadline);
 		id = getIntent().getStringExtra("id");
 		Log.e("id in fulldeatil", id);
 		makeJsonObjReq();
 		//RecyclerView recyclerView= (RecyclerView) findViewById(R.id.scrollableview);
 		NestedScrollView recyclerView= (NestedScrollView) findViewById(R.id.scrollableview);
+		recyclerView.isSmoothScrollingEnabled();
+		animFadein = AnimationUtils.loadAnimation(getApplicationContext(),
+				R.anim.fadein);
+
+
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+			Window window = getWindow();
+			window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+			window.setStatusBarColor(Color.parseColor("#019aae"));//0b616c
+		}
+		 bottomSheet = (BottomSheetLayout) findViewById(R.id.bottomsheet);
+
+
+
+
+		fabShare = (FloatingActionButton) findViewById(R.id.fabShare);
+		fabShare.setOnClickListener(new View.OnClickListener()
+		{
+			@Override
+			public void onClick(View view)
+			{
+				sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+				sharingIntent.setType("text/plain");
+				sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Feedboard");
+				sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
+				intentPickerSheet = new IntentPickerSheetView(FullDetails.this, sharingIntent, "Share with...", new IntentPickerSheetView.OnIntentPickedListener() {
+					@Override
+					public void onIntentPicked(IntentPickerSheetView.ActivityInfo activityInfo)
+					{
+						bottomSheet.dismissSheet();
+						startActivity(activityInfo.getConcreteIntent(sharingIntent));
+					}
+
+				});
+				bottomSheet.showWithSheetView(intentPickerSheet);
+				//startActivity(Intent.createChooser(sharingIntent, "Share via"));
+			}
+		});
 
 		collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
 		//collapsingToolbarLayout.setExpandedTitleColor(getResources().getColor(android.R.color.transparent));
@@ -103,6 +160,8 @@ public class FullDetails extends AppCompatActivity
 							// set the image here
 							tmpImg.setImageBitmap(bitmap);
 							headerImage.setBackground(tmpImg.getDrawable());
+
+							//headerImage.startAnimation(animFadein);
 							//headerImage.setImageResource(Integer.parseInt(null));
 							// hide the spinner here
 						}
@@ -141,7 +200,7 @@ public class FullDetails extends AppCompatActivity
 	/**
 	 * Making json object request
 	 * */
-	private JSONObject makeJsonObjReq() {
+	public JSONObject makeJsonObjReq() {
 
 
 		JsonObjectRequest jsonObjReq = new JsonObjectRequest(Request.Method.GET,
@@ -157,9 +216,17 @@ public class FullDetails extends AppCompatActivity
 						String imgurl = objStoryParticular.optString("imageurl");
 						String title = objStoryParticular.optString("title");
 						String details = objStoryParticular.optString("details");
+						String headline = objStoryParticular.optString("headline");
+						if(headline != null)
+							shareBody= headline+". Read more at: feedboard.in . Download app: app link here";
+
+
 
 						collapsingToolbarLayout.setTitle(title);
+
 						tvDetails.setText(details);
+						tvHeadline.setText(headline);
+						tvDetails.startAnimation(animFadein);
 						setImage(headerImage, imgurl);
 
 

@@ -30,6 +30,12 @@ MERGED from com.mcxiaoke.volley:library-aar:1.0.0:3:5
 MERGED from com.bartoszlipinski.recyclerviewheader:library:1.2.0:7:5
 MERGED from com.android.support:recyclerview-v7:23.0.0:20:5
 MERGED from com.android.support:support-v4:23.0.0:20:5
+MERGED from com.flipboard:bottomsheet-core:1.4.3:5:5
+MERGED from com.android.support:support-v4:23.0.0:20:5
+MERGED from com.flipboard:bottomsheet-commons:1.4.3:5:5
+MERGED from com.flipboard:bottomsheet-core:1.4.3:5:5
+MERGED from com.android.support:support-v4:23.0.0:20:5
+MERGED from com.android.support:support-v4:23.0.0:20:5
 	android:targetSdkVersion
 		ADDED from AndroidManifest.xml:9:9
 		INJECTED from AndroidManifest.xml:0:0
@@ -55,6 +61,9 @@ MERGED from com.android.support:appcompat-v7:22.2.1:22:5
 MERGED from com.android.support:support-v4:23.0.0:22:5
 MERGED from com.android.support:support-v4:23.0.0:22:5
 MERGED from com.mcxiaoke.volley:library-aar:1.0.0:5:5
+MERGED from com.android.support:support-v4:23.0.0:22:5
+MERGED from com.android.support:support-v4:23.0.0:22:5
+MERGED from com.android.support:support-v4:23.0.0:22:5
 MERGED from com.android.support:support-v4:23.0.0:22:5
 	android:label
 		ADDED from AndroidManifest.xml:18:9
