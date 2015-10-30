@@ -4,6 +4,7 @@ import android.annotation.TargetApi;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.media.Image;
 import android.os.Build;
@@ -117,7 +118,7 @@ public class FullDetails extends AppCompatActivity
 			{
 				sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
 				sharingIntent.setType("text/plain");
-				sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Feedboard");
+				sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "feedboard.in");
 				sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
 				intentPickerSheet = new IntentPickerSheetView(FullDetails.this, sharingIntent, "Share with...", new IntentPickerSheetView.OnIntentPickedListener() {
 					@Override
@@ -190,7 +191,7 @@ public class FullDetails extends AppCompatActivity
 
 				//Toast.makeText(FullDetails.this , "Bookmarked", Toast.LENGTH_SHORT).show();
 				Snackbar snackbar = Snackbar
-						.make(coordinatorLayout, "Bookmarked", Snackbar.LENGTH_SHORT);
+						.make(coordinatorLayout, "Feature not Available", Snackbar.LENGTH_SHORT);
 
 				snackbar.show();
 				return true;
@@ -218,14 +219,18 @@ public class FullDetails extends AppCompatActivity
 						String details = objStoryParticular.optString("details");
 						String headline = objStoryParticular.optString("headline");
 						if(headline != null)
-							shareBody= headline+". Read more at: feedboard.in . Download app: app link here";
+							shareBody= headline+". Read more at Feedboard app: https://goo.gl/1QR36e  ";
 
 
 
 						collapsingToolbarLayout.setTitle(title);
 
-						tvDetails.setText(details);
-						tvHeadline.setText(headline);
+						Typeface custom_font = Typeface.createFromAsset(getAssets(), "fonts/MYRIADPRO-SEMIBOLD.OTF");
+						tvDetails.setText(details.trim());
+						tvHeadline.setText(headline.trim());
+
+						tvHeadline.setTypeface(custom_font);
+
 						tvDetails.startAnimation(animFadein);
 						setImage(headerImage, imgurl);
 

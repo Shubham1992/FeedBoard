@@ -5,6 +5,7 @@
         <item name="android:actionBarStyle">@style/MyActionBar</item>
 		<item name="android:windowContentOverlay">@null</item>
         <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
 
@@ -26,7 +27,13 @@
         <item name="color">@android:color/white</item>
     </style>
 
-
+	<style name="MyEditTextTheme">
+		<!-- Used for the bottom line when not selected / focused -->
+		<item name="colorControlNormal">#00BCD4</item>
+		<item name="colorControlActivated">#00BCD4</item>
+		<item name="colorControlHighlight">#00BCD4</item>
+		<!-- colorControlActivated & colorControlHighlight use the colorAccent color by default -->
+	</style>
 
 
 </resources>

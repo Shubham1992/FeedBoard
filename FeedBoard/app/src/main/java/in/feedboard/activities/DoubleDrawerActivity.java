@@ -2,7 +2,6 @@ package in.feedboard.activities;
 
 
 import android.annotation.TargetApi;
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -13,9 +12,12 @@ import android.graphics.Bitmap;
 import android.graphics.Typeface;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.Settings;
+import android.support.design.widget.CoordinatorLayout;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
@@ -35,24 +37,22 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
-import com.android.volley.Cache;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.VolleyLog;
-import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.ImageRequest;
 import com.android.volley.toolbox.JsonObjectRequest;
+import com.flipboard.bottomsheet.BottomSheetLayout;
+import com.flipboard.bottomsheet.commons.IntentPickerSheetView;
 
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.UnsupportedEncodingException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -61,7 +61,6 @@ import in.feedboard.R;
 import in.feedboard.adapter.EndlessRecyclerOnScrollListener;
 import in.feedboard.adapter.MyVolleySingleton;
 import in.feedboard.headerclass.RecyclerViewHeader;
-import in.feedboard.utils.ConnectionCheck;
 import in.feedboard.utils.JSONToList;
 
 import in.feedboard.adapter.HeadlinesTabsPagerAdapter;
@@ -109,12 +108,18 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
     private Button btnLifestyle;
     private Fragment lifestyleFragment;
     private SharedPreferences sharedpreferences;
-	private Button btnContribute, btnShareApp, btnRate, btnContact;
-	private Button btnAbout;
+	private Button btnContribute, btnShareApp, btnRateApp, btnContact;
+
 	private Fragment contactFragment;
     TextView tvLoading;
+    private BottomSheetLayout bottomSheet;
+    private Intent sharingIntent;
+    private String shareBody;
+    private IntentPickerSheetView intentPickerSheet;
+	ViewGroup loginUser;
+	CoordinatorLayout coordinatorLayout;
 
-	@Override
+    @Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
@@ -126,7 +131,8 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
         tvLoading = (TextView) findViewById(R.id.tvLoading);
 
         swipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipeLayoutid);
-
+        bottomSheet = (BottomSheetLayout) findViewById(R.id.bottomsheet);
+		coordinatorLayout = (CoordinatorLayout) findViewById(R.id.main_content);
         swipeRefreshLayout.setOnRefreshListener(this);
 
 
@@ -214,14 +220,7 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
 
 
 
-        headLineBookmark.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String android_id = Settings.Secure.getString(getContentResolver(),
-                        Settings.Secure.ANDROID_ID);
-            Log.e("Android id", android_id);
-            }
-        });
+
 
         setDrawerButtons();
 
@@ -338,7 +337,7 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
         if(healthFragment != null)
 		{
 			getSupportFragmentManager().beginTransaction().
-					remove(sportsFragment).commit();
+					remove(healthFragment).commit();
 		}
 		if(lifestyleFragment != null)
 		{
@@ -357,6 +356,19 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
 	}
     void setDrawerButtons()
     {
+		loginUser = (ViewGroup) findViewById(R.id.loginContainer);
+
+		loginUser.setOnClickListener(new View.OnClickListener()
+		{
+			@Override
+			public void onClick(View view)
+			{
+				/*Intent intent = new Intent(DoubleDrawerActivity.this, UserRegisteration.class);
+				startActivity(intent);*/
+
+			}
+		});
+
 		btnHome = (Button) findViewById(R.id.btnhome);
 		btnHome.setOnClickListener(new View.OnClickListener() {
 			@Override
@@ -524,10 +536,7 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
 
 
 		btnContribute = (Button) findViewById(R.id.contribute);
-		btnShareApp = (Button) findViewById(R.id.shareapp);
-		btnRate = (Button) findViewById(R.id.rate);
-		btnContact = (Button) findViewById(R.id.contact);
-		btnContact.setOnClickListener(new View.OnClickListener()
+		btnContribute.setOnClickListener(new View.OnClickListener()
 		{
 			@Override
 			public void onClick(View view)
@@ -544,7 +553,63 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
 				toolbartitle.setText("Contact");
 			}
 		});
-		btnAbout = (Button) findViewById(R.id.about);
+		btnShareApp = (Button) findViewById(R.id.shareapp);
+		btnShareApp.setOnClickListener(new View.OnClickListener()
+		{
+			@Override
+			public void onClick(View view)
+			{
+
+				mDrawerLayout.closeDrawers();
+
+				sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+				sharingIntent.setType("text/plain");
+				sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, "Hey, Bored of reading the same old stuff on internet. Download Feedboard at https://goo.gl/1QR36e and read interesting stories on-the-go. ");
+				intentPickerSheet = new IntentPickerSheetView(DoubleDrawerActivity.this, sharingIntent, "Share with...", new IntentPickerSheetView.OnIntentPickedListener() {
+					@Override
+					public void onIntentPicked(IntentPickerSheetView.ActivityInfo activityInfo)
+					{
+						bottomSheet.dismissSheet();
+						startActivity(activityInfo.getConcreteIntent(sharingIntent));
+					}
+
+				});
+				bottomSheet.showWithSheetView(intentPickerSheet);
+			}
+		});
+		btnRateApp = (Button) findViewById(R.id.rate);
+        btnRateApp.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view)
+            {
+                mDrawerLayout.closeDrawers();
+                String url = "https://play.google.com/store/apps/details?id=in.feedboard&hl=en";
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
+
+            }
+        });
+
+		btnContact = (Button) findViewById(R.id.contact);
+		btnContact.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view)
+            {
+                //clear all fragments function
+                clearAllFragments();
+
+                contactFragment = new Contact();
+                vgCntnr.setVisibility(View.GONE);
+
+                getSupportFragmentManager().beginTransaction()
+                        .add(R.id.fragmentHolder, contactFragment).commit();
+                mDrawerLayout.closeDrawers();
+                toolbartitle.setText("Contact");
+            }
+        });
 
 
 
@@ -563,9 +628,8 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
         btnLifestyle.setTypeface(custom_font);
 		btnContact.setTypeface(custom_font);
 		btnShareApp.setTypeface(custom_font);
-		btnRate.setTypeface(custom_font);
+		btnRateApp.setTypeface(custom_font);
 		btnContribute.setTypeface(custom_font);
-		btnAbout.setTypeface(custom_font);
 
     }
 
@@ -654,7 +718,7 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
                         {
                             e.printStackTrace();
                         }
-                        tvLoading.setVisibility(View.GONE);
+
                         RVAdapter rvAdapter = new RVAdapter(list , DoubleDrawerActivity.this);
                         rvHome.setAdapter(rvAdapter);
                         swipeRefreshLayout.setRefreshing(false);
@@ -706,13 +770,7 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
 
     void setButtonsShareAndBookmark()
     {
-        btnShare = (ImageView) findViewById(R.id.share);
-        btnShare.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(DoubleDrawerActivity.this , "sharing", Toast.LENGTH_SHORT).show();
-            }
-        });
+
     }
 
     /**
@@ -731,6 +789,7 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
 
                         SavedViewpagerJson.getObject().setObj(response);
                         setHeadlines(response);
+                        tvLoading.setVisibility(View.GONE);
                         makeJsonObjReq();
                     }
                 }, new Response.ErrorListener() {
@@ -819,6 +878,43 @@ public class DoubleDrawerActivity extends ActionBarActivity implements SwipeRefr
 
             //   makeImageRequest("http://www.feedboard.in/api/media/images/" + imgurl, holder.imgMain, holder.tempImg);
         }
+
+
+        shareBody = response.optJSONArray("stories").optJSONObject(0).optString("headline").toString();
+        btnShare = (ImageView) findViewById(R.id.share);
+        btnShare.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mDrawerLayout.closeDrawers();
+				shareBody = shareBody + ". Read more at FeedBoard App: https://goo.gl/1QR36e";
+                sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+                sharingIntent.setType("text/plain");
+                sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "feedboard.in");
+                sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
+                intentPickerSheet = new IntentPickerSheetView(DoubleDrawerActivity.this, sharingIntent, "Share with...", new IntentPickerSheetView.OnIntentPickedListener() {
+                    @Override
+                    public void onIntentPicked(IntentPickerSheetView.ActivityInfo activityInfo)
+                    {
+                        bottomSheet.dismissSheet();
+                        startActivity(activityInfo.getConcreteIntent(sharingIntent));
+                    }
+
+                });
+                bottomSheet.showWithSheetView(intentPickerSheet);
+            }
+        });
+		headLineBookmark.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				String android_id = Settings.Secure.getString(getContentResolver(),
+						Settings.Secure.ANDROID_ID);
+				Snackbar snackbar = Snackbar
+						.make(coordinatorLayout, "Feature not Available", Snackbar.LENGTH_SHORT);
+
+				snackbar.show();
+				Log.e("Android id", android_id);
+			}
+		});
 
 
     }

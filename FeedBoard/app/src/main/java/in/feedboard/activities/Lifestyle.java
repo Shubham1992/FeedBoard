@@ -46,7 +46,7 @@ public class Lifestyle extends Fragment {
 			rvLifestyle = (RecyclerView) rootView.findViewById(R.id.rvLifestyle);
 			StaggeredGridLayoutManager layoutManager = new StaggeredGridLayoutManager(1,StaggeredGridLayoutManager.VERTICAL);
 			final StaggeredGridLayoutManager layoutManager2 = new StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL);
-			tvLoading = (TextView) rootView.findViewById(R.id.tvLoadingHealth);
+			tvLoading = (TextView) rootView.findViewById(R.id.tvLoadinglifestyle);
 
 
 			rvLifestyle.setLayoutManager(layoutManager2);
